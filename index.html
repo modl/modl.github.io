@@ -1,74 +1,117 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Modl.github.io : MOD/L | Markit On Demand Labs" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>MOD/L Markit On Demand Labs</title>
+    <title>MOD/L : Markit On Demand Labs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="stylesheets/style.css" rel="stylesheet" media="screen">
   </head>
+  <body data-spy="scroll" data-target=".navbar">
 
-  <body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <a class="navbar-brand" href="#">MOD/L</a>
+      <ul class="nav navbar-nav">
+        <li><a href="#lead">Home</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#ideaacc">Idea Accelerator</a></li>
+      </ul>
+    </nav>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/modl">View on GitHub</a>
 
-          <h1 id="project_title">MOD/L</h1>
-          <h2 id="project_tagline">Markit On Demand Labs</h2>
 
-        </header>
+    <header>
+      <div class="container">
+        <h1>MOD/L</h1>
+      </div>
+    </header>
+
+    <div class="container page-wrapper">
+      <div id="lead">
+        <p class="lead">
+          Earlier this year, <a href="http://markitondemand.com">Markit On Demand</a> launched MOD Labs (MOD/L), a team whose aim is to enhance existing capabilities, create new solutions, and foster innovation across the organization.  We recognize that innovation is as much the creation of original ideas as it is the recognition and dissemination of existing progressive concepts and methods within our broader organization.  MOD/L aims to inform the working methods of MOD teams and to recognize innovative work from those teams as it happens.
+        </p>
+      </div>
+
+      <div class="row" id="articles">
+        
+        <div class="col-sm-6">
+          <h2>Speed</h2>
+          <img src="images/spdy.png" class="img-responsive" />
+           <p>Continuing our years of efforts to provide the fastest financial sites in the world, MOD/L is implementing the Google-created <a href="http://en.wikipedia.org/wiki/SPDY">SPDY</a> protocol across MOD's infrastructure, with a goal of reducing page and app load times by 25% across all devices and browsers.</p>
+        </div>
+        <div class="col-sm-6">
+          <h2>Data Visualization</h2>
+          <img src="images/globe.png" class="img-responsive" />
+          <caption>Visualizing traffic using WebGL</caption>
+          <p>Led by our talented designers, MOD/L is working on new financial data visualizations, with the goal of improving user engagement with this complicated data and making it more accessible to a wider range of users.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <h2>Next-gen Interactive Charting</h2>
+          <img src="holder.js/100%x200/grey" class="img-responsive" />
+          <p>MOD/L is creating a new way of charting financial data; next gen charting will be faster and more engaging, will work across all platforms and will provide streaming charts.</p>
+        </div>
+        <div class="col-sm-6">
+          <h2>Technical Analysis Pattern Recognition</h2>
+          <img src="images/tech_analysis.png" class="img-responsive" />
+          <p>MOD/L is creating a machine learning engine that can be fed particular technical analysis patterns, and identify new patterns as they arise on a particular security.  This capability will enhance MOD’s existing charting, screener, and overall presentation of actionable investment ideas.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <h2>Content Personalization</h2>
+          <img src="holder.js/100%x200/grey" class="img-responsive" />
+           <p>MOD/L is working on a capability that will personalize the content and layout presented to a user, based on various attributes of the user's behavior, trading history, and research interests.  For example, presenting a user only with the fundamentals and events relevant to their portfolio; creating a trail of their research and news interests, and emphasizing certain datasets or news providers; or presenting a layout and experience that’s more relevant to a retirement investor than a day trader.</p>
+        </div>
+        <div class="col-sm-6">
+          <h2>F2</h2>
+          <img src="holder.js/100%x200/grey" class="img-responsive" />
+           <p><a href="http://openf2.org">F2</a> is an open source toolkit for building websites in the financial services industry.  F2 was the first project to graduate from the MOD/L process, and continues to be managed by the MOD/L team.  To date in 2013, we have released nine versions of F2, providing additional documentation and bolstering functionality. MOD/L continues receive feedback from the F2 community, and those recommendations are shaping the F2 roadmap.</p>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="row" id="ideaacc">
+        <div class="col-12">
+          <h3>Idea Accelerator</h3>
+          <p>Idea Accelerator is a framework to help any MOD employee take an idea from napkin sketch to full production implementation in as short a time as possible.  The framework is intended to provide visibility, support and feedback, encourage lateral skills development, and ultimately, launch the best ideas MOD has to offer.  Correspondingly, it outlines a means to stop an idea when it is not viable or is failing for any number of reasons, and it is the intent of this framework to make it safe for ideas and projects in this environment to fail.</p>
+          <ul>
+            <li>&alpha; (Alpha - Make It Work)</li>
+            <li>&beta; (Beta - Make Sure It's A Good Idea / MVP)</li>
+            <li>Live (V1)</li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+    <footer>
+        <div class="well">
+            
+          <button type="button" class="btn btn-default">
+            <a href="mailto:modl@markit.com"><span class="glyphicon glyphicon-envelope"></span> modl@markit.com</a>
+          </button>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+            
+            <a href="https://twitter.com/mod_labs" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @mod_labs</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+      
+    </footer>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+    <!-- JavaScript plugins (requires jQuery) -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="javascripts/bootstrap.min.js"></script>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
+    <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+    <script src="javascripts/respond.js"></script>
+    <script src="javascripts/holder.min.js"></script>
   </body>
 </html>
