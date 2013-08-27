@@ -1,30 +1,15 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>MOD/L : Markit On Demand Labs</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href="stylesheets/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="stylesheets/style.css" rel="stylesheet" media="screen">
-  </head>
-  <body data-spy="scroll" data-target=".navbar">
+---
+layout: default
+title: MOD/L | Markit On Demand Labs
+---
 
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <a class="navbar-brand" href="#">MOD/L</a>
-      <ul class="nav navbar-nav">
-        <li><a href="#lead">Home</a></li>
-        <li><a href="#articles">Articles</a></li>
-        <li><a href="#ideaacc">Idea Accelerator</a></li>
-      </ul>
-    </nav>
-
-
-
-    <header>
+<header>
       <div class="container">
         <h1>MOD/L</h1>
       </div>
     </header>
+
+    
 
     <div class="container page-wrapper">
       <div id="lead">
@@ -33,7 +18,7 @@
         </p>
       </div>
 
-      <div class="row" id="articles">
+      <div class="row">
         
         <div class="col-sm-6">
           <h2>Speed</h2>
@@ -75,10 +60,19 @@
 
 
 
+<div class="row" id="articles">
+	<div class="col-12">
+	  <h2>Articles</h2>
+	  <ul class="posts">
+	    {% for post in site.posts %}
+	      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+	    {% endfor %}
+	  </ul>
+	</div>
+</div>
 
 
-
-      <div class="row" id="ideaacc">
+<div class="row" id="ideaacc">
         <div class="col-12">
           <h3>Idea Accelerator</h3>
           <p>Idea Accelerator is a framework to help any MOD employee take an idea from napkin sketch to full production implementation in as short a time as possible.  The framework is intended to provide visibility, support and feedback, encourage lateral skills development, and ultimately, launch the best ideas MOD has to offer.  Correspondingly, it outlines a means to stop an idea when it is not viable or is failing for any number of reasons, and it is the intent of this framework to make it safe for ideas and projects in this environment to fail.</p>
@@ -90,28 +84,3 @@
         </div>
       </div>
     </div>
-
-    <footer>
-        <div class="well">
-            
-          <button type="button" class="btn btn-default">
-            <a href="mailto:modl@markit.com"><span class="glyphicon glyphicon-envelope"></span> modl@markit.com</a>
-          </button>
-
-            
-            <a href="https://twitter.com/mod_labs" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @mod_labs</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </div>
-      
-    </footer>
-
-    <!-- JavaScript plugins (requires jQuery) -->
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="javascripts/bootstrap.min.js"></script>
-
-    <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-    <script src="javascripts/respond.js"></script>
-    <script src="javascripts/holder.min.js"></script>
-  </body>
-</html>
