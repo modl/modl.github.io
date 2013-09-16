@@ -2,89 +2,77 @@
 layout: default
 title: MOD/L | Markit On Demand Labs
 ---
-
-<header>
-      <div class="container">
-        <h1>MOD/L</h1>
-      </div>
-    </header>
-
-    
-
-    <div class="container page-wrapper">
-      <div id="lead">
+  <div id="lead" class="col-sm-12">
+        <h3>Welcome to MOD Labs</h3>
         <p class="lead">
           Earlier this year, <a href="http://markitondemand.com">Markit On Demand</a> launched MOD Labs (MOD/L), a team whose aim is to enhance existing capabilities, create new solutions, and foster innovation across the organization.  We recognize that innovation is as much the creation of original ideas as it is the recognition and dissemination of existing progressive concepts and methods within our broader organization.  MOD/L aims to inform the working methods of MOD teams and to recognize innovative work from those teams as it happens.
         </p>
       </div>
-
-      <div class="row">
-        
-        <div class="col-sm-6">
+      
+    <div class="col-md-7" id="projects">
+    
+      <h4>Projects</h4><div class="clearfix"></div>
           <h2>Speed</h2>
-          <img src="images/spdy.png" class="img-responsive" />
-           <p>Continuing our years of efforts to provide the fastest financial sites in the world, MOD/L is implementing the Google-created <a href="http://en.wikipedia.org/wiki/SPDY">SPDY</a> protocol across MOD's infrastructure, with a goal of reducing page and app load times by 25% across all devices and browsers.</p>
-        </div>
-        <div class="col-sm-6">
+          <div class="black-module">
+            <img src="images/spdy.png" class="img-responsive" />
+        <p>Continuing our years of efforts to provide the fastest financial sites in the world, MOD/L is implementing the Google-created <a href="http://en.wikipedia.org/wiki/SPDY">SPDY</a> protocol across MOD's infrastructure, with a goal of reducing page and app load times by 25% across all devices and browsers.</p>
+          </div>
           <h2>Data Visualization</h2>
-          <img src="images/globe.png" class="img-responsive" />
-          <caption>Visualizing traffic using WebGL</caption>
-          <p>Led by our talented designers, MOD/L is working on new financial data visualizations, with the goal of improving user engagement with this complicated data and making it more accessible to a wider range of users.</p>
-        </div>
+          <div class="black-module">
+            <img src="images/globe.png" class="img-responsive" />
+            <p class="caption">Visualizing traffic using WebGL</p>
+            <p>Led by our talented designers, MOD/L is working on new financial data visualizations, with the goal of improving user engagement with this complicated data and making it more accessible to a wider range of users.</p>
       </div>
-
-      <div class="row">
-        <div class="col-sm-6">
           <h2>Next-gen Interactive Charting</h2>
-          <img src="holder.js/100%x200/grey" class="img-responsive" />
-          <p>MOD/L is creating a new way of charting financial data; next gen charting will be faster and more engaging, will work across all platforms and will provide streaming charts.</p>
-        </div>
-        <div class="col-sm-6">
+          <div class="black-module">
+            <img src="images/interactive.png" class="img-responsive" />
+            <p>MOD/L is creating a new way of charting financial data; next gen charting will be faster and more engaging, will work across all platforms and will provide streaming charts.</p>
+      </div>
           <h2>Technical Analysis Pattern Recognition</h2>
-          <img src="images/tech_analysis.png" class="img-responsive" />
-          <p>MOD/L is creating a machine learning engine that can be fed particular technical analysis patterns, and identify new patterns as they arise on a particular security.  This capability will enhance MOD’s existing charting, screener, and overall presentation of actionable investment ideas.</p>
-        </div>
+          <div class="black-module">
+            <img src="images/tech_analysis.png" class="img-responsive" />
+            <p>MOD/L is creating a machine learning engine that can be fed particular technical analysis patterns, and identify new patterns as they arise on a particular security.  This capability will enhance MODâ€™s existing charting, screener, and overall presentation of actionable investment ideas.</p>
       </div>
-      <div class="row">
-        <div class="col-sm-6">
           <h2>Content Personalization</h2>
-          <img src="holder.js/100%x200/grey" class="img-responsive" />
-           <p>MOD/L is working on a capability that will personalize the content and layout presented to a user, based on various attributes of the user's behavior, trading history, and research interests.  For example, presenting a user only with the fundamentals and events relevant to their portfolio; creating a trail of their research and news interests, and emphasizing certain datasets or news providers; or presenting a layout and experience that’s more relevant to a retirement investor than a day trader.</p>
+          <div class="black-module">
+            <img src="images/interactive.png" class="img-responsive" />
+        <p>MOD/L is working on a capability that will personalize the content and layout presented to a user, based on various attributes of the user's behavior, trading history, and research interests.  For example, presenting a user only with the fundamentals and events relevant to their portfolio; creating a trail of their research and news interests, and emphasizing certain datasets or news providers; or presenting a layout and experience thatâ€™s more relevant to a retirement investor than a day trader.</p>
+     </div>
+         <h2>F2</h2>
+          <div class="black-module">
+            <img src="holder.js/100%x200/grey" class="img-responsive" />
+            <p><a href="http://openf2.org">F2</a> is an open source toolkit for building websites in the financial services industry.  F2 was the first project to graduate from the MOD/L process, and continues to be managed by the MOD/L team.  To date in 2013, we have released nine versions of F2, providing additional documentation and bolstering functionality. MOD/L continues receive feedback from the F2 community, and those recommendations are shaping the F2 roadmap.</p>
         </div>
-        <div class="col-sm-6">
-          <h2>F2</h2>
-          <img src="holder.js/100%x200/grey" class="img-responsive" />
-           <p><a href="http://openf2.org">F2</a> is an open source toolkit for building websites in the financial services industry.  F2 was the first project to graduate from the MOD/L process, and continues to be managed by the MOD/L team.  To date in 2013, we have released nine versions of F2, providing additional documentation and bolstering functionality. MOD/L continues receive feedback from the F2 community, and those recommendations are shaping the F2 roadmap.</p>
-        </div>
+    </div>
+    
+    <div class="col-md-5 right-rail" id="articles">
+        <h4>Articles</h4><div class="clearfix"></div>
+        
+        <ul class="posts list-group">
+          {% for post in site.posts %}
+            <li class="list-group-item">
+              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <span class="meta">-- {{ post.date | date_to_string }}</span>
+              <p>{{ post.excerpt | markdownify }}</p>
+           </li>
+          {% endfor %}
+        </ul>
+
+
+        <button type="button" class="btn btn-default">
+          <a href="#">Browse All Articles</a>
+        </button>
       </div>
+    <div class="col-md-7">
 
-
-
-<div class="row" id="articles">
-	<div class="col-12">
-	  <h2>Articles</h2>
-	  <ul class="posts list-group">
-	    {% for post in site.posts %}
-	      <li class="list-group-item">
-	      	<a href="{{ post.url }}">{{ post.title }}</a>
-	      	<p>{{ post.excerpt | markdownify }}</p>
-	      	<span>-- {{ post.date | date_to_string }}</span>
-	     </li>
-	    {% endfor %}
-	  </ul>
-	</div>
-</div>
-
-
-<div class="row" id="ideaacc">
-        <div class="col-12">
-          <h3>Idea Accelerator</h3>
-          <p>Idea Accelerator is a framework to help any MOD employee take an idea from napkin sketch to full production implementation in as short a time as possible.  The framework is intended to provide visibility, support and feedback, encourage lateral skills development, and ultimately, launch the best ideas MOD has to offer.  Correspondingly, it outlines a means to stop an idea when it is not viable or is failing for any number of reasons, and it is the intent of this framework to make it safe for ideas and projects in this environment to fail.</p>
+<h4>Idea Accelerator</h4><div class="clearfix"></div>
+<h2>Jetpack</h2>
+<div class="black-module col-12" id="jetpack">
+         
+          <p>Jetpack is a framework to help any MOD employee take an idea from napkin sketch to full production implementation in as short a time as possible.  The framework is intended to provide visibility, support and feedback, encourage lateral skills development, and ultimately, launch the best ideas MOD has to offer.  Correspondingly, it outlines a means to stop an idea when it is not viable or is failing for any number of reasons, and it is the intent of this framework to make it safe for ideas and projects in this environment to fail.</p>
           <ul>
-            <li>&alpha; (Alpha - Make It Work)</li>
-            <li>&beta; (Beta - Make Sure It's A Good Idea / MVP)</li>
+            <li><span class="char-code">&alpha;</span> (Alpha - Make It Work)</li>
+            <li><span class="char-code">&beta;</span> (Beta - Make Sure It's A Good Idea / MVP)</li>
             <li>Live (V1)</li>
           </ul>
         </div>
-      </div>
-    </div>

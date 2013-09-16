@@ -1,54 +1,79 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ page.title }}</title>
+    <title>MOD/L | Markit On Demand Labs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="/stylesheets/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="/stylesheets/style.css" rel="stylesheet" media="screen">
+    <script type="text/javascript" src="//use.typekit.net/gzg5jgf.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
   <body data-spy="scroll" data-target=".navbar">
-
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <a class="navbar-brand" href="#">MOD/L</a>
-      <ul class="nav navbar-nav">
-        <li><a href="#lead">Home</a></li>
-        <li><a href="#articles">Articles</a></li>
-        <li><a href="#ideaacc">Idea Accelerator</a></li>
-      </ul>
-    </nav>
-
-
-
-    
-
-
-      {{ content }}
-
-
+  <div class="gradient-wrapper"></div>
+   
+    <div class="container page-wrapper">
+   
       
-
-    <footer>
-        <div class="well">
-            
+     
+        <a href="#top"><img src="/images/dodecahedron_logo.png" class="img-logo img-responsive" alt="MOD/L Mod Labs Logo" /></a>
+    <nav class="navbar row" role="navigation" id="navbar">    
+        <ul class="nav navbar-nav">
+          <li><a href="#top" class="nav-img hide"><img src="/images/dodecahedron_logo_nav.png" class"img-responsive" /></a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="#jetpack">Jetpack</a></li>
+        </ul>
+    </nav>
+       
+    
+     {{ content }}
+      
+   
+     <div class="footer">
+      
+      <p> CONTACT US</p>            
           <button type="button" class="btn btn-default">
-            <a href="mailto:modl@markit.com"><span class="glyphicon glyphicon-envelope"></span> modl@markit.com</a>
+            <span class="glyphicon glyphicon-envelope"></span>modl@markit.com</a>
           </button>
 
             
-            <a href="https://twitter.com/mod_labs" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @mod_labs</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            <!--<a href="https://twitter.com/mod_labs" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @mod_labs</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>-->
         </div>
-      
-    </footer>
+    </div>
+    
 
+
+</div>
+
+      
+
+    
+</div>
     <!-- JavaScript plugins (requires jQuery) -->
     <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="/javascripts/waypoints.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>
 
     <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-    <script src="javascripts/respond.js"></script>
-    <script src="javascripts/holder.min.js"></script>
+    <script src="/javascripts/respond.js"></script>
+    <script src="/javascripts/holder.min.js"></script>
+    
+    <script type="text/javascript">
+    $('#lead').waypoint(function(direction) {
+      console.log('scroll-trigger '+direction);
+      if (direction == "down") {
+        $("#navbar").addClass("small-nav");
+        $(".nav-img").removeClass("hide");
+      } else {
+        $("#navbar").removeClass("small-nav");
+        $(".nav-img").addClass("hide");
+      }
+  });
+    </script>
+    
   </body>
 </html>

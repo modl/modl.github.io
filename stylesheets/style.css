@@ -1,1 +1,331 @@
-body { padding-top: 70px; }
+body { 
+	   background: url(../images/docadehedron_bg.png) no-repeat 60% 0%;
+	   background-color: black;
+	   background-attachment: fixed;
+	   font-family: "akzidenz-grotesk-next",sans-serif;
+	   font-style: normal;
+	   font-weight: 200;
+}
+
+.img-logo {
+	margin: 30px auto 20px auto;
+}
+
+
+ul.list-group {
+	border: none;
+	border-radius: none;
+}
+ul.list-group li {
+	background-color:rgba(0,0,0,0.65);
+	border-radius: 0px!important;
+	margin-bottom: 20px;
+	border: solid 1px #45C4FF;
+	margin-top: 12px;
+}
+.list-group-item h3 {
+	font-family: "akzidenz-grotesk-next",sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+.post .meta, .black-module .meta {
+	color: #939598;
+	text-transform: uppercase;
+	font-weight: 500;
+	display: block;
+	margin-top: 6px;
+	margin-bottom: 10px;
+	font-size: 10pt;
+}
+ 
+h4 {
+	font-family: "akzidenz-grotesk-next",sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 11pt;
+	text-transform: uppercase;
+	color: #45C4FF;
+	float: left;
+	display: block;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+h4+div {
+	overflow: hidden;
+	border-bottom: solid 1px #45C4FF;
+	padding-top: 18px;
+	margin-bottom: 30px;
+	
+}
+
+
+
+h2 {
+	font-size: 28pt;
+	font-family: "akzidenz-grotesk-next",sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: #FFF;
+	margin: 0 0 15px 0;
+}
+
+.char-code {
+	font-family: sans-serif;
+}
+.caption {
+	color: #fff;
+}
+
+
+.gradient-wrapper {
+	position: fixed;
+	margin:0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 70%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(70%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+a:link, a:visited {
+	color: #45C4FF;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #97DEFF;
+}
+a:active {
+	color: #0086C6;
+}
+
+#lead {
+	color: #fff;
+}
+
+.black-module {
+	background-color:rgba(0,0,0,0.65);
+	border: solid 1px #45C4FF;
+	padding: 0;
+	margin-bottom: 20px
+}
+div#lead.black-module {
+	padding: 5px 25px 0px 25px;
+	margin: 0 10px 15px 10px;
+}
+div#lead.black-module p {
+	margin: 20px 0px;
+	font-size: 16pt;
+}
+
+.black-module p, .list-group-item p, .black-module ul {
+	color: white;
+	opacity: 0.85;
+	font-weight: 200;
+	font-size: 13pt;
+}
+.black-module p, .black-module h3, .black-module h2, .black-module .jetpack-img {
+	margin: 20px;
+}
+
+.black-module+h2 {
+	margin-top: 30px;
+}
+
+.black-module h3 {
+	font-family: "akzidenz-grotesk-next",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20pt;
+	color: #45C4FF;
+	text-transform: uppercase;
+	
+}
+.post .black-module h3 {
+	text-transform: none;
+}
+.post p{
+	font-size: 1.4em;
+}
+.post .dropquote {
+	color: #fff;
+	opacity: 1;
+	font-size: 180%;
+	font-style: italic;
+	background: rgba(0,0,0,0.45);
+	text-align: center;
+	padding: 30px 70px;
+	margin:0;
+}
+.post .dropquote .byline {
+	text-align: right;
+	margin-top: 20px;
+	display: block;
+	color: #45C4FF;
+	font-size: 80%;
+}
+
+.footer {
+	border-top: solid 1px #45C4FF;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 120px;
+}
+.footer  * {
+	float: left;
+	margin-right: 20px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.footer p {
+	line-height: 35px;
+	color: #45C4FF;
+	font-weight: 500;
+}
+
+.btn-default {
+	background: none;
+	border: solid 1px transparent; 
+	color: #45C4FF;
+	border-radius: 0;
+}
+.btn-default:hover, .btn-default:hover a {
+	background:none;
+	color: #45C4FF;
+	border-color: #45C4FF;
+}
+
+.btn-default:active, .btn-default:active a {
+	background:none;
+	color: #0086C6;
+	border-color: #0086C6;
+}
+.btn-o {
+	background-color:rgba(0,0,0,0.65);
+	border: solid 1px #45C4FF; 
+	color: #45C4FF;
+}
+
+.navbar *, .container *, header, .container * *, .container * * *, .img-logo {
+	position: relative;
+	z-index: 100;
+}
+.navbar {
+	margin-top: 0px;
+	padding-left: 40px;
+	font-size: 1.4em;
+	font-weight: 200px;
+	background-color:rgba(0,0,0,0.65);
+}
+.navbar-nav li a:link {
+	border: solid 1px transparent;
+}
+
+.navbar-nav li a:hover {
+	background: none;
+	border: solid 1px #45C4FF;
+	color: #45C4FF;
+	
+}
+.navbar .navbar-nav {
+	width: 315px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navbar li {
+	float: left;
+}
+.navbar li.nav-img {
+	display: none;
+}
+#navbar.small-nav {
+	margin: 0;
+	z-index: 200;
+	float: none;
+	font-size: 18px;
+	width: 100%;
+	transition: all 0.5s;
+	background-color:rgba(0,0,0,0.85);
+	position: fixed;
+	top: 0;
+	padding-left: 5px;
+}
+.small-nav li {
+
+}
+
+#navbar.small-nav li a {
+	line-height: 30px;
+	border: none;
+}
+
+#navbar.small-nav li a:hover {
+	color: #97DEFF;
+	background: rgba(97,97,97,0.6);
+}
+
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.img-logo {
+		margin: 40px 20px 40px 0;
+	}
+	.navbar {
+		width: auto;
+		float: right;
+		margin-top: -120px;
+		margin-left: 0;
+		font-size: 1.6em;
+		font-weight: 200px;
+		background: none;
+	}
+	.navbar .navbar-nav {
+		width: intrinsic;
+		margin:0 15px 0 0;
+	}
+	.gradient-wrapper {
+		background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(50%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%); /* IE10+ */
+		background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+	}
+	#navbar.smallnav {
+		font-size: 12px;
+	}
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+	#navbar.smallnav.navbar {
+		font-size: 12px;
+	}
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+body { 
+	   background: url(../images/docadehedron_bg.png) no-repeat -280px 0%;
+	   background-color: black;
+	   background-attachment: fixed;
+	  
+}
