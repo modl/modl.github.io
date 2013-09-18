@@ -31,7 +31,7 @@ ul.list-group li {
 	padding: 10px 0 0 0;
 }
 
-.post .meta, .black-module .meta {
+.posts .meta, .black-module .meta {
 	color: #939598;
 	text-transform: uppercase;
 	font-weight: 500;
@@ -164,7 +164,7 @@ div#lead.black-module p {
 	font-style: italic;
 	background: rgba(0,0,0,0.45);
 	text-align: center;
-	padding: 30px 70px;
+	padding: 10px 30px;
 	margin:0;
 }
 .post .dropquote .byline {
@@ -222,7 +222,7 @@ div#lead.black-module p {
 }
 .navbar {
 	margin-top: 0px;
-	padding-left: 40px;
+	padding-left: 0px;
 	font-size: 1.4em;
 	font-weight: 200px;
 	background-color:rgba(0,0,0,0.65);
@@ -253,26 +253,49 @@ div#lead.black-module p {
 	z-index: 200;
 	float: none;
 	font-size: 18px;
-	width: 100%;
 	transition: all 0.5s;
 	background-color:rgba(0,0,0,0.85);
 	position: fixed;
 	top: 0;
 	padding-left: 5px;
+	width: 100%;
 }
-.small-nav li {
-
+#navbar.small-nav .navbar-nav {
+	width: 100%;
+	font-size: 12pt;
+	display: block;
+	padding:0;
+}
+#navbar.small-nav .navbar-nav li{
+	height: 100%;
+	
 }
 
 #navbar.small-nav li a {
 	line-height: 30px;
 	border: none;
+	padding: 5px 10px;
+	height: 100%;
 }
 
 #navbar.small-nav li a:hover {
 	color: #97DEFF;
 	background: rgba(97,97,97,0.6);
 }
+
+#navbar.small-nav li a.nav-img {
+	display: none;
+}
+#navbar.small-nav .navbar-nav li:first-child {
+	min-width: 40px;
+	height:40px;
+	background: url(../images/dodecahedron_logo_nav_notext.png);
+	background-position: center center; 
+	background-repeat: no-repeat;
+	float: left;
+	
+}
+
 
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
@@ -306,6 +329,56 @@ div#lead.black-module p {
 	}
 	#navbar.smallnav {
 		font-size: 12px;
+		width: 315px;
+		padding: 0;
+		margin: 0;
+	}
+	#navbar.smallnav .navbar-nav li {
+		margin: 0;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		display: inline-block;
+		height: 50px;
+	}
+	#navbar.smallnav .navbar-nav li:first-child {
+		margin-right: 50px;
+		display: block;
+		float: left;
+	}
+	
+	#navbar.small-nav li a {
+		line-height: 40px;
+		height: 100%;
+	}
+	#navbar.small-nav img {
+		display: block;
+		padding-top: 3px;
+	}
+	#navbar.small-nav li a.nav-img {
+		display: inline-block;
+		line-height: 40px;
+		height: 50px;
+	}
+	#navbar.small-nav .navbar-nav li:first-child {
+		background:none;
+	}
+	
+	.post .dropquote {
+		color: #fff;
+		opacity: 1;
+		font-size: 180%;
+		font-style: italic;
+		background: rgba(0,0,0,0.45);
+		text-align: center;
+		padding: 30px 70px;
+		margin:0;
+	}
+	.post .dropquote .byline {
+		text-align: right;
+		margin-top: 10px;
+		display: block;
+		color: #45C4FF;
+		font-size: 80%;
 	}
 }
 
@@ -314,7 +387,7 @@ div#lead.black-module p {
 @media (min-width: 992px) {
 	
 	#navbar.smallnav.navbar {
-		font-size: 12px;
+		font-size: 14pt;
 	}
 
 }
