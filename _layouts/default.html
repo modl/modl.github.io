@@ -13,11 +13,11 @@
   <body data-spy="scroll" data-target=".navbar">
   <div class="gradient-wrapper"></div>
    
-    <div class="container page-wrapper">
+  <div class="container page-wrapper">
+ 
+    
    
-      
-     
-        <a href="#top"><img src="/images/dodecahedron_logo.png" class="img-logo img-responsive" alt="MOD/L Mod Labs Logo" /></a>
+    <a href="#top"><img src="/images/dodecahedron_logo.png" class="img-logo img-responsive" alt="MOD/L Mod Labs Logo" /></a>
     <nav class="navbar row" role="navigation" id="navbar">    
         <ul class="nav navbar-nav">
           <li><a href="#top" class="nav-img hide"><img src="/images/dodecahedron_logo_nav.png" class"img-responsive" /></a></li>
@@ -25,44 +25,37 @@
           <li><a href="#articles">Articles</a></li>
           <li><a href="#jetpack">Jetpack</a></li>
         </ul>
-    </nav>
-       
+    </nav> 
+     
+  
+    {{ content }}
     
-     {{ content }}
-      
-   
-     <div class="footer">
+ 
+    <div class="footer col-md-7">
       
       <p> CONTACT US</p>            
-          <button type="button" class="btn btn-default">
-            <span class="glyphicon glyphicon-envelope"></span>modl@markit.com</a>
-          </button>
+      <button type="button" class="btn btn-default">
+        <span class="glyphicon glyphicon-envelope"></span>modl@markit.com</a>
+      </button>
 
             
-            <!--<a href="https://twitter.com/mod_labs" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @mod_labs</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>-->
-        </div>
+        <!--<a href="https://twitter.com/mod_labs" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @mod_labs</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>-->
     </div>
+  </div>
     
 
+  <!-- JavaScript plugins (requires jQuery) -->
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="/javascripts/waypoints.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="/javascripts/bootstrap.min.js"></script>
 
-</div>
-
-      
-
-    
-</div>
-    <!-- JavaScript plugins (requires jQuery) -->
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="/javascripts/waypoints.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="/javascripts/bootstrap.min.js"></script>
-
-    <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-    <script src="/javascripts/respond.js"></script>
-    <script src="/javascripts/holder.min.js"></script>
-    
-    <script type="text/javascript">
+  <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+  <script src="/javascripts/respond.js"></script>
+  <script src="/javascripts/holder.min.js"></script>
+  
+  <script type="text/javascript">
     $('#lead').waypoint(function(direction) {
       console.log('scroll-trigger '+direction);
       if (direction == "down") {
@@ -72,8 +65,8 @@
         $("#navbar").removeClass("small-nav");
         $(".nav-img").addClass("hide");
       }
-  });
-    </script>
+    });
+  </script>
     
   </body>
 </html>
