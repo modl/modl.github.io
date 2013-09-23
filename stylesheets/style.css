@@ -1,10 +1,10 @@
 body { 
-	   background: url(../images/docadehedron_bg.png) no-repeat 60% 0%;
-	   background-color: black;
-	   background-attachment: fixed;
-	   font-family: "akzidenz-grotesk-next",sans-serif;
-	   font-style: normal;
-	   font-weight: 200;
+   background: url(../images/docadehedron_bg.png) no-repeat 60% 0%;
+   background-color: black;
+   background-attachment: fixed;
+   font-family: "akzidenz-grotesk-next",sans-serif;
+   font-style: normal;
+   font-weight: 200;
 }
 
 .img-logo {
@@ -40,6 +40,14 @@ ul.list-group li {
 	margin-bottom: 10px;
 	font-size: 10pt;
 }
+
+h3 {
+	font-weight: 200;
+}
+
+#lead h3 {
+	font-size: 28px;
+}
  
 h4 {
 	font-family: "akzidenz-grotesk-next",sans-serif;
@@ -60,8 +68,6 @@ h4+div {
 	margin-bottom: 30px;
 	
 }
-
-
 
 h2 {
 	font-size: 28pt;
@@ -85,7 +91,6 @@ h2 {
 	margin:20px;
 }
 
-
 .gradient-wrapper {
 	position: fixed;
 	margin:0;
@@ -101,8 +106,6 @@ h2 {
 	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
-
-
 
 a:link, a:visited {
 	color: #45C4FF;
@@ -308,6 +311,7 @@ div#lead.black-module p {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+
 	.img-logo {
 		margin: 40px 20px 40px 0;
 	}
@@ -391,20 +395,17 @@ div#lead.black-module p {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-	
 	#navbar.smallnav.navbar {
 		font-size: 14pt;
 	}
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
-
-body { 
-	   background: url(../images/docadehedron_bg.png) no-repeat -280px 0%;
-	   background-color: black;
-	   background-attachment: fixed;
-	  
+	body { 
+		   background: url(../images/docadehedron_bg.png) no-repeat -280px 0%;
+		   background-color: black;
+		   background-attachment: fixed;
+		  
+	}
 }
