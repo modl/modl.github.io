@@ -14,7 +14,7 @@ title: MOD/L | Markit On Demand Labs
   <h4>Projects</h4><div class="clearfix"></div>
   <h2>Speed</h2>
   <div class="black-module">
-    <img src="images/spdy.png" class="img-responsive" />
+    <img src="images/lines.jpg" class="img-responsive" />
     <p>Continuing our years of efforts to provide the fastest financial sites in the world, MOD/L is implementing the Google-created <a href="http://en.wikipedia.org/wiki/SPDY">SPDY</a> protocol across MOD's infrastructure, with a goal of reducing page and app load times by 25% across all devices and browsers.</p>
   </div>
 
@@ -57,7 +57,7 @@ title: MOD/L | Markit On Demand Labs
     {% for post in site.posts %}
       <li class="list-group-item">
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        <span class="meta">-- {{ post.date | date_to_string }}</span>
+        <span class="meta">{{ post.date | date_to_string }}</span>
         <p>{{ post.excerpt | markdownify }}</p>
      </li>
     {% endfor %}
