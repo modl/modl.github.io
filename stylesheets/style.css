@@ -166,6 +166,9 @@ div#lead.black-module p {
 .post p{
 	font-size: 1.4em;
 }
+.post .meta {
+	color: #e1e1e1;
+}
 .post .dropquote {
 	color: #fff;
 	opacity: 1;

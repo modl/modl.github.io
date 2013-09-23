@@ -1,82 +1,50 @@
-
 <!DOCTYPE html>
 <html>
   <head>
     <title>MOD/L | Markit On Demand Labs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="/stylesheets/style.css" rel="stylesheet" media="screen">
+    <link href="{{site.url}}/stylesheets/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="{{site.url}}/stylesheets/style.css" rel="stylesheet" media="screen">
     <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
     <link rel="icon" href="/favicon.png" type="image/x-icon">
-    <script type="text/javascript" src="//use.typekit.net/gzg5jgf.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="//use.typekit.net/gzg5jgf.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+    <script src="{{site.url}}/javascripts/html5shiv.js"></script>
+    <script src="{{site.url}}/javascripts/respond.js"></script>
     <meta name="google-site-verification" content="koj1ru9iskitCqlVk5EpQY-CxRInLcYQ2euJ_1Bq-rA" />
   </head>
   <body data-spy="scroll" data-target=".navbar">
-  <div class="gradient-wrapper"></div>
-   
-  <div class="container page-wrapper">
-   
-    <a href="./"><img src="/images/dodecahedron_logo.png" class="img-logo img-responsive" alt="MOD/L - Markit On Demand Labs" /></a>
-    <nav class="navbar row" role="navigation" id="navbar">    
-        <ul class="nav navbar-nav">
-          <li><a href="#top" class="nav-img hide"><img src="/images/dodecahedron_logo_nav.png" class"img-responsive" /></a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#articles">Articles</a></li>
-          <li><a href="#jetpack">Jetpack</a></li>
-        </ul>
-    </nav> 
-     
-    {{ content }}
-    
-    <div class="footer col-md-7">
-      
-      <p> CONTACT US</p>            
-      <button type="button" class="btn btn-default">
-        <span class="glyphicon glyphicon-envelope"></span>modl@markit.com</a>
-      </button>
-      <button type="button" class="btn btn-default">
-        <span class="glyphicon glyphicon-envelope"></span>modl@markit.com</a>
-      </button>
-      
-    </div>
-  </div>
-    
+    <div class="gradient-wrapper"></div>
+      <div class="container page-wrapper">
+        <a href="{{site.url}}/"><img src="/images/dodecahedron_logo.png" class="img-logo img-responsive" alt="MOD/L - Markit On Demand Labs" /></a>
+        <nav class="navbar row" role="navigation" id="navbar">    
+          <ul class="nav navbar-nav">
+            <li><a href="{{site.url}}/" class="nav-img hide"><img src="{{site.url}}/images/dodecahedron_logo_nav.png" class"img-responsive" /></a></li>
+            <li><a href="{{site.url}}/#projects">Projects</a></li>
+            <li><a href="{{site.url}}/#articles">Articles</a></li>
+            <li><a href="{{site.url}}/#jetpack">Jetpack</a></li>
+          </ul>
+        </nav> 
 
-  <!-- JavaScript plugins (requires jQuery) -->
-  <script src="//code.jquery.com/jquery.js"></script>
-  <script src="/javascripts/waypoints.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="/javascripts/bootstrap.min.js"></script>
+        {{ content }}
 
-  <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-  <script src="/javascripts/respond.js"></script>
-  <script src="/javascripts/holder.min.js"></script>
-  
-  <script type="text/javascript">
-    $('#lead').waypoint(function(direction) {
-      //console.log('scroll-trigger '+direction);
-      if (direction == "down") {
-        $("#navbar").addClass("small-nav");
-        $(".nav-img").removeClass("hide");
-      } else {
-        $("#navbar").removeClass("small-nav");
-        $(".nav-img").addClass("hide");
-      }
-    });
+        <div class="footer col-md-7">
+          <p>CONTACT US</p>            
+          <a href="mailto:modl@markit.com" class="btn btn-default"><span class="glyphicon glyphicon-envelope"></span>modl@markit.com</a>
+          <a href="https://twitter.com/mod_labs" target="_blank" class="btn btn-default"><span class="glyphicon glyphicon-bullhorn"></span>@mod_labs</a>
+        </div>
+    </div><!--/container-->
+  </div><!--/gradient wrapper-->
+
+  <script src="{{site.url}}/javascripts/require.js" data-main="{{site.url}}/javascripts/main"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29467710-4', 'modl.github.io');
+  ga('send', 'pageview');
   </script>
-    
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-29467710-4', 'modl.github.io');
-    ga('send', 'pageview');
-
-    </script>
-
-  </body>
+</body>
 </html>

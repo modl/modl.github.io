@@ -3,6 +3,7 @@ layout: post
 title: Code Month
 category: Code
 category: Data Visualization
+tags: 
 author: MOD Design Team
 excerpt: When designing with data we use the same process for designing a logo or a website. Initial stages begin with research—that is, learning where the data comes from, what it represents, and what it means to the end user. Sketching and wire framing come next and produce the concepts to accurately present the data. There comes a time, however, when photoshop, illustrator, or any other design program stop being useful. Generally, it's because there is no good way to input hundreds or even thousands of data points into a design program.
 ---

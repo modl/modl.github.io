@@ -3,6 +3,7 @@ layout: post
 title: Do What You Want Day
 categories: [Innovation, DWYWD]
 author: Sterling White
+tags: 
 excerpt: Do What You Want Day (DWYWD) is a full day where we drop your normal work and spend the day on things that matter to us. Markit On Demand hosts this day every quarter and it's an opportunity to work on projects that will help our teams grow, be more efficient, learn something new, or build community in the office.
 ---
 
