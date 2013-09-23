@@ -27,7 +27,7 @@ title: MOD/L | Markit On Demand Labs
   
   <h2>Next-gen Interactive Charting</h2>
   <div class="black-module">
-    <a href="charting.html"><img src="images/interactive.png" class="img-responsive" /></a>
+    <a href="{{site.url}}/charting/2013/09/30/current-state-of-charting.html"><img src="images/interactive.png" class="img-responsive" /></a>
     <p>MOD/L is creating a new way of charting financial data; next gen charting will be faster and more engaging, will work across all platforms and will provide streaming charts.</p>
   </div>
   
@@ -57,7 +57,7 @@ title: MOD/L | Markit On Demand Labs
     {% for post in site.posts %}
       <li class="list-group-item">
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        <span class="meta">{{ post.date | date_to_string }}</span>
+        <!--<span class="meta">{{ post.date | date_to_string }}</span>-->
         <p>{{ post.excerpt | markdownify }}</p>
      </li>
     {% endfor %}

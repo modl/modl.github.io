@@ -3,7 +3,8 @@ layout: post
 title: Code Month
 category: Code
 category: Data Visualization
-author: 
+author: MOD Design Team
+excerpt: When designing with data we use the same process for designing a logo or a website. Initial stages begin with research—that is, learning where the data comes from, what it represents, and what it means to the end user. Sketching and wire framing come next and produce the concepts to accurately present the data. There comes a time, however, when photoshop, illustrator, or any other design program stop being useful. Generally, it's because there is no good way to input hundreds or even thousands of data points into a design program.
 ---
 
 Here at Markit on Demand we work with large, complex data sets almost every day. When designing with data we use the same process for designing a logo or a website. Initial stages begin with research—that is, learning where the data comes from, what it represents, and what it means to the end user. Sketching and wire framing come next and produce the concepts to accurately present the data. There comes a time, however, when photoshop, illustrator, or any other design program stop being useful. Generally, it's because there is no good way to input hundreds or even thousands of data points into a design program. You need to see the real thing. That's why our design team created Code Month, an exercise in code prototyping. To help foster our coding abilities, a select group of us take roughly a month to research a data set and develop a real visualization to represent that data. It's meant to be an exercise in rapid prototyping to quickly develop visualization solutions for our clients. These are a few examples from our first two code months so far.  
