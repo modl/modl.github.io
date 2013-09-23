@@ -13,9 +13,9 @@ MOD set the bar in web-based financial charting over a decade ago. Using a combi
 
 ![Current Charting]({{site.url}}/images/articles/chart.png)
 
-Today, users expect even more from their charts -- both in their browser, as well as on their tables and phones. They expect a high level of interactivity, including &quot;pinch and zoom&quot;, drawing trendlines and Fibonacci retracements, and the ability to share a chart with other investors. They expect streaming on the chart, animated transitions, as well as every possible indicator known to Technical Analysis.
+Today, users expect even more from their charts -- both in their browser, as well as on their tables and phones. They expect a high level of interactivity, including &lsquo;pinch-to-zoom&rsquo;, drawing trendlines and Fibonacci retracements, and the ability to share a chart with other investors. They expect streaming on the chart, animated transitions, as well as every possible indicator known to Technical Analysis.
 
-In the past, browser incompatibilities and performance issues made true browser-based charting very difficult. As browser makers have continued to implement web standards, and machine and tablet performance continues to follow Moore's Law, achieving investor's expectations on charting is very achievable.  Translation libraries such as Jquery and D3 allow for browser differences (especially around vector rendering, which remains inconsistent) to be abstracted away, freeing developers to focus on the charts, rather than the browsers.
+In the past, browser incompatibilities and performance issues made true browser-based charting very difficult. As browser makers have continued to implement web standards, and machine and tablet performance continues to follow Moore&rsquo;s Law, achieving investor's expectations on charting is very achievable.  Translation libraries such as Jquery and D3 allow for browser differences (especially around vector rendering, which remains inconsistent) to be abstracted away, freeing developers to focus on the charts, rather than the browsers.
 
 ###What Are We Doing About It?
 
@@ -23,7 +23,7 @@ MOD/L has assembled an elite team of charting experts to build upon our charting
 
 Go Imageless - use the metadata and intelligence, but not the raster image.
 
-Some of this effort has already resulted in LiveCharts, a new capability for IOS charting, allowing for &quot;pinch and zoom&quot; and smooth, native interactions. Need more LiveCharts copy here, and an image.
+Some of this effort has already resulted in LiveCharts, a new capability for IOS charting, allowing for &lsquo;pinch-to-zoom&rsquo; and smooth, native interactions. Need more LiveCharts copy here, and an image.
 
 The team is also currently in the &alpha;lpha stage of a Jetpack project to push the boundaries of browser-based
 

@@ -3,8 +3,9 @@
   <head>
     <title>MOD/L | Markit On Demand Labs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="{{site.url}}/stylesheets/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="{{site.url}}/stylesheets/style.css" rel="stylesheet" media="screen">
+    <link href="{{site.url}}/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="{{site.url}}/stylesheets/font-awesome.min.css" rel="stylesheet">
+    <link href="{{site.url}}/stylesheets/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
     <link rel="icon" href="/favicon.png" type="image/x-icon">
     <script src="//use.typekit.net/gzg5jgf.js"></script>
@@ -20,18 +21,27 @@
         <nav class="navbar row" role="navigation" id="navbar">    
           <ul class="nav navbar-nav">
             <li class="nav-img"><a href="{{site.url}}/index2/" class="hide"><img src="{{site.url}}/images/dodecahedron_logo_nav.png" class"img-responsive" /></a></li>
-            <li><a href="{{site.url}}/index2/#projects-articles">Projects &amp; Articles</a></li>
+            <li class="visible-md visible-lg"><a href="{{site.url}}/index2/#projects-articles">Projects &amp; Articles</a></li>
+            <li class="visible-xs visible-sm"><a href="{{site.url}}/index2/#projects">Projects</a></li>
+            <li class="visible-xs visible-sm"><a href="{{site.url}}/index2/#articles">Articles</a></li>
             <li><a href="{{site.url}}/index2/#jetpack">Jetpack</a></li>
-            <li><a href="https://twitter.com/mod_labs" target="_blank">@mod_labs</a></li>
           </ul>
         </nav> 
 
         {{ content }}
 
-        <div class="footer col-md-7">
-          <p>CONTACT US</p>            
-          <a href="mailto:modl@markit.com" class="btn btn-default"><span class="glyphicon glyphicon-envelope"></span>modl@markit.com</a>
-          <a href="https://twitter.com/mod_labs" target="_blank" class="btn btn-default"><span class="glyphicon glyphicon-bullhorn"></span>@mod_labs</a>
+        <div class="row">
+          <footer class="col-md-12 clearfix">
+            <div class="pull-left">
+              <!--<span>CONTACT US</span>-->
+              <a href="https://twitter.com/mod_labs" target="_blank" class="btn btn-default"><i class="icon-twitter icon-large"></i> @mod_labs</a>
+              <a href="https://github.com/modl" target="_blank" class="btn btn-default"><i class="icon-github icon-large"></i> MOD/L on GitHub</a>
+              <a href="https://github.com/markitondemand" target="_blank" class="btn btn-default"><i class="icon-github icon-large"></i> MOD on GitHub</a>
+              <a href="https://github.com/OpenF2/F2" target="_blank" class="btn btn-default"><i class="icon-github icon-large"></i> F2 on GitHub</a>
+              <!--<a href="mailto:modl@markit.com" class="btn btn-default"><i class="icon-envelope icon-large"></i> modl@markit.com</a>-->
+            </div>
+            <div class="pull-right"><p class="copy">&copy; 2013 Markit On Demand, Inc. All Rights Reserved.</p></div>
+          </footer>
         </div>
     </div><!--/container-->
   </div><!--/gradient wrapper-->

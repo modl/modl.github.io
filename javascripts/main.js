@@ -27,6 +27,7 @@ require(
 			var $navImg = $('li.nav-img'),
 				$navbar = $('#navbar');
 
+			/*
 			$('#lead').waypoint(function(direction) {
 			    if (direction == "down") {
 			    	$navImg.removeClass("hide");
@@ -35,7 +36,7 @@ require(
 			    	$navImg.addClass("hide");
 			    	$navbar.removeClass("small-nav");
 			    }
-		    });
+		    });*/
 
 
 		});
