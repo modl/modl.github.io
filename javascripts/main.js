@@ -24,17 +24,20 @@ require(
 		$(function(){
 
 			//init waypoint
+			var $navImg = $('li.nav-img'),
+				$navbar = $('#navbar');
+
 			$('#lead').waypoint(function(direction) {
 			    if (direction == "down") {
-			    	$("#navbar").addClass("small-nav");
-			    	$("li.nav-img").removeClass("hide");
+			    	$navImg.removeClass("hide");
+			    	$navbar.addClass("small-nav");
 			    } else {
-			    	$("#navbar").removeClass("small-nav");
-			    	$("li.nav-img").addClass("hide");
+			    	$navImg.addClass("hide");
+			    	$navbar.removeClass("small-nav");
 			    }
 		    });
 
-		    
+
 		});
 
 	}

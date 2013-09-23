@@ -11,7 +11,6 @@ body {
 	margin: 30px auto 20px auto;
 }
 
-
 ul.list-group {
 	border: none;
 	border-radius: none;
@@ -31,7 +30,9 @@ ul.list-group li {
 	padding: 10px 0 0 0;
 }
 
-.posts .meta, .black-module .meta {
+.posts .meta,
+.post .meta, 
+.black-module .meta {
 	color: #939598;
 	text-transform: uppercase;
 	font-weight: 500;
@@ -61,12 +62,11 @@ h4 {
 	margin-right: 10px;
 	margin-bottom: 15px;
 }
-h4+div {
+h4 + div {
 	overflow: hidden;
 	border-bottom: solid 1px #45C4FF;
 	padding-top: 18px;
 	margin-bottom: 30px;
-	
 }
 
 h2 {
@@ -81,6 +81,7 @@ h2 {
 .char-code {
 	font-family: sans-serif;
 }
+
 .caption {
 	color: #fff;
 }
@@ -128,22 +129,30 @@ a:active {
 	padding: 0;
 	margin-bottom: 20px
 }
-div#lead.black-module {
+
+#lead.black-module {
 	padding: 5px 25px 0px 25px;
 	margin: 0 10px 15px 10px;
 }
-div#lead.black-module p {
+
+#lead.black-module p {
 	margin: 20px 0px;
 	font-size: 16pt;
 }
 
-.black-module p, .list-group-item p, .black-module ul {
+.black-module p, 
+.list-group-item p, 
+.black-module ul {
 	color: white;
 	opacity: 0.85;
 	font-weight: 200;
 	font-size: 13pt;
 }
-.black-module p, .black-module h3, .black-module h2, .black-module .jetpack-img {
+
+.black-module p, 
+.black-module h3, 
+.black-module h2, 
+.black-module .jetpack-img {
 	margin: 20px;
 }
 
@@ -163,12 +172,11 @@ div#lead.black-module p {
 .post .black-module h3 {
 	text-transform: none;
 }
-.post p{
+
+.post p {
 	font-size: 1.4em;
 }
-.post .meta {
-	color: #e1e1e1;
-}
+
 .post .dropquote {
 	color: #fff;
 	opacity: 1;
@@ -179,6 +187,7 @@ div#lead.black-module p {
 	padding: 10px 30px;
 	margin:0;
 }
+
 .post .dropquote .byline {
 	text-align: right;
 	margin-top: 20px;
@@ -228,10 +237,20 @@ div#lead.black-module p {
 	color: #45C4FF;
 }
 
-.navbar *, .container *, header, .container * *, .container * * *, .img-logo {
+.navbar *, 
+.container *, 
+header, 
+.container * *, 
+.container * * *, 
+.img-logo {
 	position: relative;
 	z-index: 100;
 }
+
+.sectionheader {
+	height: 60px;
+}
+
 .navbar {
 	margin-top: 0px;
 	padding-left: 0px;
@@ -239,6 +258,7 @@ div#lead.black-module p {
 	font-weight: 200px;
 	background-color:rgba(0,0,0,0.65);
 }
+
 .navbar-nav li a:link {
 	border: solid 1px transparent;
 }
@@ -265,7 +285,7 @@ div#lead.black-module p {
 	z-index: 200;
 	float: none;
 	font-size: 18px;
-	transition: all 0.5s;
+	xtransition: all 0.5s;
 	background-color:rgba(0,0,0,0.85);
 	position: fixed;
 	top: 0;
