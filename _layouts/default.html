@@ -2,7 +2,6 @@
 <html>
   <head>
     <title>MOD/L | Markit On Demand Labs</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{{site.url}}/stylesheets/bootstrap.min.css" rel="stylesheet">
     <link href="{{site.url}}/stylesheets/font-awesome.min.css" rel="stylesheet">
     <link href="{{site.url}}/stylesheets/style.css" rel="stylesheet">
@@ -13,35 +12,45 @@
     <script src="{{site.url}}/javascripts/html5shiv.js"></script>
     <!--[if IE]><script src="{{site.url}}/javascripts/respond.js"></script><![endif]-->
     <meta name="google-site-verification" content="koj1ru9iskitCqlVk5EpQY-CxRInLcYQ2euJ_1Bq-rA" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--iOS-->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/icons/144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/icons/114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/icons/72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="/images/icons/57x57.png">
+    <meta name="apple-mobile-web-app-title" content="MOD/L">
+    <!--Win8 Tiles-->
+    <meta name="msapplication-TileImage" content="/images/icons/win8_144x144.png"/>
+    <meta name="msapplication-TileColor" content="#0076c3"/>
   </head>
   <body data-spy="scroll" data-target=".navbar">
     <div class="gradient-wrapper"></div>
     <div class="container page-wrapper">
-      <a href="{{site.url}}/" class="img-logo"><img src="/images/dodecahedron_logo.png" class="img-responsive" alt="MOD/L - Markit On Demand Labs" /></a>
-      <nav class="navbar row" role="navigation" id="navbar">    
-        <ul class="nav navbar-nav">
-          <li class="nav-img"><a href="{{site.url}}/index2/" class="hide"><img src="{{site.url}}/images/dodecahedron_logo_nav.png" class"img-responsive" /></a></li>
-          <li class="visible-md visible-lg"><a href="{{site.url}}/index2/#projects-articles">Projects &amp; Articles</a></li>
-          <li class="visible-xs visible-sm"><a href="{{site.url}}/index2/#projects">Projects</a></li>
-          <li class="visible-xs visible-sm"><a href="{{site.url}}/index2/#articles">Articles</a></li>
-          <li><a href="{{site.url}}/index2/#jetpack">Jetpack</a></li>
-          <li class="visible-md visible-lg"><a href="https://twitter.com/mod_labs" target="_blank"><i class="icon-twitter icon-large"></i></a></li>
-        </ul>
-      </nav> 
+      <div class="clearfix">
+        <a href="{{site.url}}/" class="img-logo img-responsive"><img src="/images/dodecahedron_logo@2x.png" class="img-responsive" alt="MOD/L - Markit On Demand Labs" /></a>
+        <nav class="navbar" role="navigation" id="navbar">    
+          <ul class="nav navbar-nav">
+            <li class="section visible-md visible-lg"><a href="{{site.url}}/index2/#projects-articles">Projects &amp; Articles</a></li>
+            <li class="section visible-xs visible-sm"><a href="{{site.url}}/index2/#projects">Projects</a></li>
+            <li class="section visible-xs visible-sm"><a href="{{site.url}}/index2/#articles">Articles</a></li>
+            <li class="section"><a href="{{site.url}}/index2/#jetpack">Jetpack</a></li>
+          </ul>
+        </nav> 
+        <nav id="fixednav" class="hide"><ul class="list-inline"><li class="smallNavLogo"><a href="#"></a></li></ul></nav>
+      </div>
 
       {{ content }}
 
       <div class="row">
         <footer class="col-md-12 clearfix">
           <div class="pull-left">
-            <!--<span>CONTACT US</span>-->
             <a href="https://twitter.com/mod_labs" target="_blank" class="btn btn-default"><i class="icon-twitter icon-large"></i> @mod_labs</a>
-            <a href="https://github.com/modl" target="_blank" class="btn btn-default"><i class="icon-github icon-large"></i> MOD/L on GitHub</a>
             <a href="https://github.com/markitondemand" target="_blank" class="btn btn-default"><i class="icon-github icon-large"></i> MOD on GitHub</a>
-            <a href="https://github.com/OpenF2/F2" target="_blank" class="btn btn-default"><i class="icon-github icon-large"></i> F2 on GitHub</a>
+            <a href="https://github.com/OpenF2/F2" target="_blank" class="btn btn-default"><i class="icon-ellipsis-horizontal"></i>  OpenF2.org</a>
+            <a href="http://www.markit.com" target="_blank" class="btn btn-default"><i class="icon-ellipsis-horizontal"></i> Markit.com</a>
             <!--<a href="mailto:modl@markit.com" class="btn btn-default"><i class="icon-envelope icon-large"></i> modl@markit.com</a>-->
           </div>
-          <div class="pull-right"><p class="copy">&copy; 2013 Markit On Demand, Inc. All Rights Reserved.</p></div>
+          <div class="pull-right"><p class="copy">&copy; Copyright 2013 Markit Group Limited. ALL DATA PROVIDED AS IS, WITH NO WARRANTIES. All rights reserved.</p></div>
         </footer>
       </div>
     </div><!--/container-->

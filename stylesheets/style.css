@@ -7,6 +7,20 @@ body {
    font-weight: 200;
 }
 
+a:link, 
+a:visited {
+	color: #45C4FF;
+	text-decoration: none;
+}
+a:hover, 
+a:active {
+	color: #97DEFF;
+}
+
+a:active {
+	color: #0086C6;
+}
+
 .gradient-wrapper {
 	position: fixed;
 	margin:0;
@@ -30,10 +44,107 @@ body {
 
 .img-logo {
 	display: block;
+	float: left;
 	margin-top: 30px;
 	margin-bottom: 20px;
 	width: 386px;
 	height: 109px;
+}
+
+/** nav */
+.navbar {
+	margin-top: 0px;
+	padding-left: 0px;
+	font-size: 1.4em;
+	font-weight: 200px;
+	xbackground-color: rgba(0,0,0,0.65);
+	float: right;
+}
+
+.navbar-nav li a:link {
+	border: solid 1px transparent;
+}
+
+.navbar-nav li a:hover {
+	background: none;
+	border: solid 1px #45C4FF;
+	color: #45C4FF;
+	
+}
+
+.navbar .navbar-nav {/*ul*/
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.navbar li {
+	float: left;
+}
+
+.navbar li.nav-img {
+	display: none;
+}
+
+#fixednav {
+	margin: 0;
+	z-index: 200;
+	float: none;
+	font-size: 18px;
+	xtransition: all 0.5s;
+	background-color:rgba(0,0,0,0.85);
+	position: fixed;
+	top: 0;
+	padding-left: 5px;
+	width: 100%;
+	border-radius: 0;
+}
+
+#fixednav ul {
+	margin-bottom: 0;
+}
+
+#fixednav li {
+	font-size: 15px;
+	float:left;
+}
+
+#fixednav a {
+	line-height: 30px;
+	display: block;
+	padding: 5px 10px;
+}
+
+#fixednav a:hover {
+	color: #97DEFF;
+	background: rgba(97,97,97,0.6);
+}
+
+#fixednav .smallNavLogo {
+	min-width: 40px;
+	height:40px;
+	background: url(/images/dodecahedron_logo_nav_notext.png);
+	background-position: center center; 
+	background-repeat: no-repeat;
+	float: left;
+}
+
+@media (-webkit-min-device-pixel-ratio:2){
+	#fixednav .smallNavLogo {
+		background-image: url(/images/dodecahedron_logo_nav_notext@2x.png);
+		background-size: 33px 30px;
+	}
+}
+
+#fixednav .smallNavLogo a {
+	display: block;
+	height: 40px;
+	width: 40px;
+}
+
+#fixednav .smallNavLogo a:hover {
+	background-color: transparent;
 }
 
 ul.list-group {
@@ -73,6 +184,10 @@ h3 {
 
 #lead h3 {
 	font-size: 28px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "akzidenz-grotesk-next",sans-serif;
 }
  
 h4 {
@@ -115,19 +230,6 @@ h2 {
 	background:#000;
 	color:green;
 	margin:20px;
-}
-
-
-
-a:link, a:visited {
-	color: #45C4FF;
-	text-decoration: none;
-}
-a:hover, a:active {
-	color: #97DEFF;
-}
-a:active {
-	color: #0086C6;
 }
 
 #lead {
@@ -207,6 +309,10 @@ a:active {
 	font-size: 80%;
 }
 
+.sectionheader {
+	height: 60px;
+}
+
 footer {
 	border-top: solid 1px #45C4FF;
 	margin-top: 20px;
@@ -224,6 +330,13 @@ footer span {
 footer .pull-left,
 footer .pull-right {
 	line-height: 35px;
+}
+
+footer .copy {
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	font-size: 12px;
+	line-height: normal;
 }
 
 .btn-default {
@@ -245,116 +358,27 @@ footer .pull-right {
 	color: #0086C6;
 	border-color: #0086C6;
 }
+
 .btn-o {
 	background-color:rgba(0,0,0,0.65);
 	border: solid 1px #45C4FF; 
 	color: #45C4FF;
 }
 
-.sectionheader {
-	height: 60px;
+/* for desktops, slide jetpack logo down a bit */
+.jetpackContent .col-md-3 .jetpack-img {
+	margin-top: 50px;
 }
 
-.navbar {
-	margin-top: 0px;
-	padding-left: 0px;
-	font-size: 1.4em;
-	font-weight: 200px;
-	background-color:rgba(0,0,0,0.65);
+/* the top nav, when scrolling down, overlaps the section headings. this fixes that.*/
+#articles, 
+#projects {
+	padding-top: 60px;
 }
-
-.navbar-nav li a:link {
-	border: solid 1px transparent;
-}
-
-.navbar-nav li a:hover {
-	background: none;
-	border: solid 1px #45C4FF;
-	color: #45C4FF;
-	
-}
-.navbar .navbar-nav {
-	width: 315px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.navbar li {
-	float: left;
-}
-.navbar li.nav-img {
-	display: none;
-}
-#navbar.small-nav {
-	margin: 0;
-	z-index: 200;
-	float: none;
-	font-size: 18px;
-	xtransition: all 0.5s;
-	background-color:rgba(0,0,0,0.85);
-	position: fixed;
-	top: 0;
-	padding-left: 5px;
-	width: 100%;
-}
-#navbar.small-nav .navbar-nav {
-	width: 100%;
-	font-size: 12pt;
-	display: block;
-	padding:0;
-}
-#navbar.small-nav .navbar-nav li{
-	height: 100%;
-	
-}
-
-#navbar.small-nav li a {
-	line-height: 30px;
-	border: none;
-	padding: 5px 10px;
-	height: 100%;
-}
-
-#navbar.small-nav li a:hover {
-	color: #97DEFF;
-	background: rgba(97,97,97,0.6);
-}
-
-#navbar.small-nav li a.nav-img {
-	display: none;
-}
-#navbar.small-nav .navbar-nav li:first-child {
-	min-width: 40px;
-	height:40px;
-	background: url(../images/dodecahedron_logo_nav_notext.png);
-	background-position: center center; 
-	background-repeat: no-repeat;
-	float: left;
-	
-}
-
-
-/* Extra small devices (phones, up to 480px) */
-/* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width:768px) and (max-width:992px){
 
-	.img-logo {
-		xmargin: 40px 20px 40px 0;
-	}
-	.navbar {
-		width: auto;
-		float: right;
-		margin-top: -120px;
-		margin-left: 0;
-		font-size: 1.6em;
-		font-weight: 200px;
-		background: none;
-	}
-	.navbar .navbar-nav {
-		width: 100%;
-		margin:0 15px 0 0;
-	}
 	.gradient-wrapper {
 		background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%); /* FF3.6+ */
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(50%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
@@ -363,41 +387,6 @@ footer .pull-right {
 		background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%); /* IE10+ */
 		background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%); /* W3C */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
-	}
-	#navbar.smallnav {
-		font-size: 12px;
-		width: 315px;
-		padding: 0;
-		margin: 0;
-	}
-	#navbar.smallnav .navbar-nav li {
-		margin: 0;
-		padding-top: 5px;
-		padding-bottom: 5px;
-		display: inline-block;
-		height: 50px;
-	}
-	#navbar.smallnav .navbar-nav li:first-child {
-		margin-right: 50px;
-		display: block;
-		float: left;
-	}
-	
-	#navbar.small-nav li a {
-		line-height: 40px;
-		height: 100%;
-	}
-	#navbar.small-nav img {
-		display: block;
-		padding-top: 3px;
-	}
-	#navbar.small-nav li a.nav-img {
-		display: inline-block;
-		line-height: 40px;
-		height: 50px;
-	}
-	#navbar.small-nav .navbar-nav li:first-child {
-		background:none;
 	}
 	
 	.post .dropquote {
@@ -417,22 +406,88 @@ footer .pull-right {
 		color: #45C4FF;
 		font-size: 80%;
 	}
+	footer .copy {
+		line-height: 35px;
+	}
+
+
 }
 
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 922px and up) */
+@media (max-width:992px){
 	#navbar.smallnav.navbar {
 		font-size: 14pt;
+	}
+	
+}
+
+@media (max-width: 767px){
+	.navbar {
+		float: left;
+		position: relative;
+		width: 111%;
+		margin: 0 0 0 -15px;
+		padding-left: 0px;
+		font-size: 1.4em;
+		font-weight: 200px;
+		min-height: 40px;
+		background-color:rgba(0,0,0,0.65);
+	}
+
+	.navbar-nav li a:link {
+		border: solid 1px transparent;
+	}
+
+	.navbar-nav li a:hover {
+		background: none;
+		border: solid 1px #45C4FF;
+		color: #45C4FF;
+
+	}
+	.navbar .navbar-nav {
+		width: 315px;
+		margin: 7px auto;
+	}
+	.navbar li {
+		float: left;
+	}
+	.navbar li.nav-img {
+		display: none;
+	}
+}
+
+/*phones only*/
+@media (max-width: 480px){
+	.jetpackContent .col-lg-8 .jetpack-img {
+		display: block;
+		float:none;
+		margin: 0 auto 20px auto;
+		text-align: center;
+		width: 100%;
 	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media (min-width:1200px){
 	body { 
-		   background: url(../images/docadehedron_bg.png) no-repeat -280px 0%;
+		   background: url(/images/docadehedron_bg.png) no-repeat -280px 0%;
 		   background-color: black;
 		   background-attachment: fixed;
-		  
+	}
+	footer .copy {
+		line-height: 35px;
+	}
+	/* the top nav, when scrolling down, overlaps the section headings. this fixes that.*/
+	#articles, 
+	#projects {
+		padding-top: 0px;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio:2){
+	body { 
+	   background-image: url(../images/docadehedron_bg@2x.png);
+	   background-size: 1787px 2000px;
 	}
 }

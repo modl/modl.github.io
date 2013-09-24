@@ -4,7 +4,8 @@ require(
 		paths: {
 			'jquery': '//code.jquery.com/jquery.min',
 			'bootstrap': 'bootstrap.min',
-			'waypoints': 'waypoints'
+			'waypoints': 'waypoints',
+			'retinajs': 'retina-1.1.0.min'
 		},
 		shim: {
 			'bootstrap': {
@@ -21,24 +22,28 @@ require(
 	], 
 	function($) {
 
-		$(function(){
+		var $navbar = $('#navbar'),
+			$navImg = $('li.smallNavLogo', $navbar),
+			$fixednav = $('#fixednav');
 
-			//init waypoint
-			var $navImg = $('li.nav-img'),
-				$navbar = $('#navbar');
+		//clone the hidden "fixed nav" from the original top-right nav
+		//or else users lose scroll position as doc reflows 
+		var cloneNav = function(){
+			$clonedNavs = $('li.section',$navbar).clone();//.removeAttr('class');
+			$('ul',$fixednav).append( $clonedNavs );
+		};
 
-			/*
+		//reveal "fixed nav" as user scrolls down page
+		var initStickyNav = function(){
 			$('#lead').waypoint(function(direction) {
-			    if (direction == "down") {
-			    	$navImg.removeClass("hide");
-			    	$navbar.addClass("small-nav");
-			    } else {
-			    	$navImg.addClass("hide");
-			    	$navbar.removeClass("small-nav");
-			    }
-		    });*/
+				$fixednav[ (direction == 'down')?'removeClass':'addClass' ]('hide');
+		    });
+		}
 
-
+		//go!
+		$(function(){
+			cloneNav();
+			initStickyNav();
 		});
 
 	}
