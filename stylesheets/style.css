@@ -30,13 +30,10 @@ body {
 
 .img-logo {
 	display: block;
-	margin: 30px auto 20px auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
 	width: 386px;
 	height: 109px;
-}
-
-.img-logo img {
-	
 }
 
 ul.list-group {
@@ -343,7 +340,7 @@ footer .pull-right {
 @media (min-width: 768px) { 
 
 	.img-logo {
-		margin: 40px 20px 40px 0;
+		xmargin: 40px 20px 40px 0;
 	}
 	.navbar {
 		width: auto;
@@ -355,7 +352,7 @@ footer .pull-right {
 		background: none;
 	}
 	.navbar .navbar-nav {
-		width: intrinsic;
+		width: 100%;
 		margin:0 15px 0 0;
 	}
 	.gradient-wrapper {
