@@ -7,8 +7,36 @@ body {
    font-weight: 200;
 }
 
+.gradient-wrapper {
+	position: fixed;
+	margin:0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 70%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(70%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.container {
+	z-index: 100;
+	position: relative;
+}
+
 .img-logo {
+	display: block;
 	margin: 30px auto 20px auto;
+	width: 386px;
+	height: 109px;
+}
+
+.img-logo img {
+	
 }
 
 ul.list-group {
@@ -92,21 +120,7 @@ h2 {
 	margin:20px;
 }
 
-.gradient-wrapper {
-	position: fixed;
-	margin:0;
-	padding: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 0;
-	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 70%, rgba(0,0,0,0) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(70%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%); /* IE10+ */
-	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
-}
+
 
 a:link, a:visited {
 	color: #45C4FF;
@@ -221,13 +235,15 @@ footer .pull-right {
 	color: #45C4FF;
 	border-radius: 0;
 }
-.btn-default:hover, .btn-default:hover a {
+.btn-default:hover, 
+.btn-default:hover a {
 	background:none;
 	color: #45C4FF;
 	border-color: #45C4FF;
 }
 
-.btn-default:active, .btn-default:active a {
+.btn-default:active, 
+.btn-default:active a {
 	background:none;
 	color: #0086C6;
 	border-color: #0086C6;
