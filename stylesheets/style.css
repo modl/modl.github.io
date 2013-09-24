@@ -265,6 +265,8 @@ h2 {
 .black-module p, 
 .black-module h3, 
 .black-module h2, 
+.black-module h5,
+.black-module h4,
 .black-module .jetpack-img,
 .black-module h6 {
 	margin: 20px;
@@ -286,7 +288,8 @@ h2 {
 .post .black-module h3 {
 	text-transform: none;
 }
-.post .black-module h6 {
+.post .black-module h6, 
+.post .black-module h5 {
 	color:#CCC;
 }
 
