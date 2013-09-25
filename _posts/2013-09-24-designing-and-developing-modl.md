@@ -13,7 +13,7 @@ tags:
 - Responsive Web Design
 - Jekyll
 author: Mark Healey
-excerpt: The effort of designing and developing this site was quite literally the definition of collaboration.
+excerpt: We wanted a logo and website that represented the multi-faceted and cross-team nature of our work.
 date: 2013-10-01
 ---
 
