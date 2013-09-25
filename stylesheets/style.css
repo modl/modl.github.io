@@ -270,7 +270,7 @@ h2 {
 	margin: 20px;
 }
 
-.black-module+h2 {
+.black-module + h2 {
 	margin-top: 30px;
 }
 
@@ -278,14 +278,34 @@ h2 {
 	font-family: "akzidenz-grotesk-next",sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 20pt;
 	color: #45C4FF;
 	text-transform: uppercase;
-	
 }
-.post .black-module h3 {
+.post .black-module h3,
+.post .black-module h4,
+.post .black-module h5,
+.post .black-module h6 {
 	text-transform: none;
+	font-style: normal;
+	font-weight: 300;
+	color: #45C4FF;
+	display: block;
+	float: none;
+	margin: 20px;
 }
+
+.post .black-module h4 {
+	font-size: 18px;
+}
+
+.post .black-module h5 {
+	font-size: 15px;
+}
+
+.post .black-module h6 {
+	font-size: 13px;
+}
+
 .post .black-module h6 {
 	color:#CCC;
 }

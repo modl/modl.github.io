@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Current and Future State of Charting
-category: Charting
+category: charting
 tags: charting
 author: Tim Burcham
 excerpt: MOD set the bar in web-based financial charting over a decade ago, and is focused on the next generation of browser-based, imageless charting.
