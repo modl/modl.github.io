@@ -178,6 +178,13 @@ ul.list-group li {
 	font-size: 10pt;
 }
 
+.black-module code {
+	font-size: 15px;
+	color: #45C4FF;
+	background: #2b2860;
+	border: 1px solid #00345e;
+}
+
 h3 {
 	font-weight: 200;
 }
@@ -294,17 +301,20 @@ h2 {
 	margin: 20px;
 }
 
+.post .black-module h3 {
+	font-size: 26px;
+}
+
 .post .black-module h4 {
-	font-size: 18px;
+	font-size: 22px;
 }
 
 .post .black-module h5 {
-	font-size: 15px;
-	color:#CCC;
+	font-size: 19px;
 }
 
 .post .black-module h6 {
-	font-size: 13px;
+	font-size: 15px;
 	color:#CCC;
 }
 
@@ -329,6 +339,18 @@ h2 {
 	display: block;
 	color: #45C4FF;
 	font-size: 80%;
+}
+
+.post .tags {
+	line-height: normal;
+	margin-left: 20px;
+	font-size: 15px;
+}
+
+.post .tags .leading {
+	color: #45C4FF;
+	margin-left: 0;
+	padding-left: 0;
 }
 
 .sectionheader {

@@ -9,6 +9,16 @@ layout: default
 			<p class="meta">{{ page.date | date_to_string }} &mdash; By {{page.author}}</p>
 			<div class="black-module post">
 				{{ content }}
+				<br>
+				<br>
+				<ul class="list-inline tags">
+					<li class="leading">Tags:</li>
+			      {% for tag in page.tags %}
+			        <li>
+			          {{tag}}
+			       </li>
+			      {% endfor %}
+			    </ul>
 			</div>
 		</div>
 	</div>
