@@ -7,7 +7,7 @@ tags:
 excerpt: Do What You Want Day (DWYWD) is a full day where we drop your normal work and spend the day on things that matter to us. Markit On Demand hosts this day every quarter and it's an opportunity to work on projects that will help our teams grow, be more efficient, learn something new, or build community in the office.
 ---
 
-![DWYWD]({{site.url}}/images/articles/dwywd/header.jpg)
+<img src="{{site.url}}/images/articles/dwywd/header.jpg" class="img-responsive" alt="DWYWD" />
 
 ### So what is Do What You Want Day / DWYWD?
 
@@ -23,13 +23,13 @@ This Fall, the focus was on community. Projects included community outreach at T
 
 <div>
 	<img src="{{site.url}}/images/articles/dwywd/speed.png" class="pull-left" />
-	<h3 class="pull-left">Request Jail &ndash; Ian Overgard</h3>
+	<h3 class="pull-left">Request Jail &mdash; Ian Overgard</h3>
 </div>
 <div class="clearfix"></div>
 
 #### Award: Speed &amp; Style &mdash; In honor of the ability to skate gracefully through a hard problem
 
-![Ian Overgard]({{site.url}}/images/articles/dwywd/ian.jpg)
+<img src="{{site.url}}/images/articles/dwywd/ian.jpg" class="img-responsive" alt="Ian Overgard" />
 
 Request Jail is a service that captures the state of a request when an error occurs in production and allows us to review and replay it later on our local machines by typing in an ID code. There's a working prototype at the moment that should soon be available for anyone at Markit On Demand to use.
 
@@ -42,7 +42,7 @@ Request Jail is a service that captures the state of a request when an error occ
 
 #### Award: It's a <span style="border-bottom: 2px solid #808080; display: inline-block; height: 17px; width: 90px;">&nbsp;</span>! &mdash; In honor of the creativity it takes to make something totally new
 
-![Aaron Young]({{site.url}}/images/articles/dwywd/aaron.jpg)]
+<img src="{{site.url}}/images/articles/dwywd/aaron.jpg" class="img-responsive" alt="Aaron Young" />
 
 We design and develop around huge, ever-changing data sets all the time but we rarely turn that lens on the data we ourselves generate. As an exercise in surfacing the beauty in that kind of data, we looked at the output of our Image Engineering team. This group's services provide millions of dynamic charts every day; capturing just a couple of minutes' worth gave us a folder of over 23,000 images to work with. While filtering and rectifying the data, doing some sketching on paper and in code, and testing those ideas, we worked toward a balance of chaos and order: a visualization which could tell a story—we deliver lots of charts—while leaving room for discovery; something that could be read differently at multiple levels. The final result was a 102"x42" poster and a Web-based zoom/pan exploration tool. It's intended to illustrate and appreciate the tremendous work of our engineers.
 
@@ -55,7 +55,7 @@ We design and develop around huge, ever-changing data sets all the time but we r
 
 #### Award: A Little Bit of Kindling – A project that is a small start toward something big
 
-![Vincent Cifelli]({{site.url}}/images/articles/dwywd/Vincent_translation_Slide1.jpg)
+<img src="{{site.url}}/images/articles/dwywd/Vincent_translation_Slide1.jpg" class="img-responsive" alt="Vincent Cifelli" />
 
 Here at MOD, working for international clients is a pretty normal thing. As a developer, I have noticed that some of my day to day tasks were to manage translations for specific projects. The traditional process was something that I found to be tedious and not forward thinking and I figured all parties involved should benefit for a more streamlined approach to this grey area of content. For this fall's DWYWD, I started to build a translation tool/manager that will become so straightforward and transparent that I'm hoping that this is something that the client (or a single thorough employee) can do. 
 
@@ -71,7 +71,7 @@ Golden Years? Yes, with the products we produce we need to come to the realizati
 
 #### Award: Leading the Way – In honor of guiding people in a new and great direction
 
-![Ali Khatami]({{site.url}}/images/articles/dwywd/ali.jpg)
+<img src="{{site.url}}/images/articles/dwywd/ali.jpg" class="img-responsive" alt="Ali Khatami" />
 
 The Windows 8 [Open F2](http://www.openf2.org/) App is a proof of concept that shows how flexible the Open F2 platform is and how exciting Windows 8 is to all types of developers. As developers, one of our biggest challenges is keeping up with changing trends, new technology, and new platforms. Windows 8 App development is a new paradigm, but uses all the technology we know and love today&mdash;this makes the platform an exciting one to develop on. You can build fully deployed applications using web code and still have access to all the device specific behaviors, events, and information. Windows 8 App development is a logical offering for Markit On Demand, given our expertise, and with Open F2 just being released to the public we wanted to show just how quick and easy we could make an App using our own tools. Looking to the future the Windows 8 market share will be huge, and we hope to offer our clients their own Windows 8 Apps; they&apos;re able to deliver a more integrated experience than the web. With Open F2, developers from all backgrounds can develop modules for F2 and a Windows 8 App that houses an F2 container can load those modules without issue. This essentially allows a developer who knows nothing about Windows 8 to develop a rich, integrated application using the flexibility of F2.
 
