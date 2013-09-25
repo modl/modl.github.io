@@ -13,11 +13,11 @@ excerpt: Do What You Want Day (DWYWD) is a full day where we drop your normal wo
 
 Do What You Want Day is a full day where we drop your normal work and spend the day on things that matter to us. Markit On Demand hosts this day every quarter and it's an opportunity to work on projects that will help our teams grow, be more efficient, learn something new, or build community in the office.
 
-It can be a project from scratch that we've thought about or something we started but just haven't found time to work on. Projects in the past have varied from 'Strategy Alerts'— a way to set up and test market alerts, to 'Check Mate', a tool that verifies the success of a web deployment, and to a Virtual Trading Floor that represents the visual activity in a live trading floor. 
+It can be a project from scratch that we've thought about or something we started but just haven't found time to work on. Projects in the past have varied from 'Strategy Alerts'&mdash; a way to set up and test market alerts, to 'Check Mate', a tool that verifies the success of a web deployment, and to a Virtual Trading Floor that represents the visual activity in a live trading floor. 
 
 How we run DWYWD continues to evolve and grow. We continue to improve the IdeaLab, a place where people can expand and carry out ideas for projects for DWYWD, gathering input, comments and where they might need help on a project.
 
-This Fall, the focus was on community. Projects included community outreach at The Boulder Family Learning Center, a 5K run, MOD Meetup – an interface that matches a person’s interests and sets up events, and a tool that improves editable requirements for passwords. All the projects where presented and judged on complexity, overcoming challenges and creativity. There were many excellent projects that people came up with and implemented on DWYWD, the below are just a handful.
+This Fall, the focus was on community. Projects included community outreach at The Boulder Family Learning Center, a 5K run, MOD Meetup &mdash; an interface that matches a person's interests and sets up events, and a tool that improves editable requirements for passwords. All the projects where presented and judged on complexity, overcoming challenges and creativity. There were many excellent projects that people came up with and implemented on DWYWD, the below are just a handful.
 
 ### This Quarter's Winners
 
@@ -53,7 +53,7 @@ We design and develop around huge, ever-changing data sets all the time but we r
 <div class="clearfix"></div>
 
 
-#### Award: A Little Bit of Kindling – A project that is a small start toward something big
+#### Award: A Little Bit of Kindling &mdash; A project that is a small start toward something big
 
 <img src="{{site.url}}/images/articles/dwywd/Vincent_translation_Slide1.jpg" class="img-responsive" alt="Vincent Cifelli" />
 
@@ -69,7 +69,7 @@ Golden Years? Yes, with the products we produce we need to come to the realizati
 <div class="clearfix"></div>
 
 
-#### Award: Leading the Way – In honor of guiding people in a new and great direction
+#### Award: Leading the Way &mdash; In honor of guiding people in a new and great direction
 
 <img src="{{site.url}}/images/articles/dwywd/ali.jpg" class="img-responsive" alt="Ali Khatami" />
 
