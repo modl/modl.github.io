@@ -507,9 +507,10 @@ footer .copy {
 	}
 }
 
+/*this is too big to actually use on 3G or 4G
 @media (-webkit-min-device-pixel-ratio:2){
 	body { 
 	   background-image: url(../images/docadehedron_bg@2x.png);
 	   background-size: 1787px 2000px;
 	}
-}
+}*/
