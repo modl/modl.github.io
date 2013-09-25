@@ -19,7 +19,7 @@ date: 2013-10-01
 
 ### col&bull;lab&bull;o&bull;ra&bull;tion: the action of working with someone to produce or create something.
 
-The effort of designing and developing this site was quite literally the definition of collaboration. [Tim](https://twitter.com/tim_burcham) and I worked closely with [Phil](https://twitter.com/raucreativity) and [Michael](https://twitter.com/beardfury), two talented designers-slash-developers, to create the MOD/L logo and this website's design. Our goals were threefold: create something unique, uncomplicated, thoughtful and responsive; showcase in-progress and completed MOD/L projects alongside a blog; provide easy access to our [Twitter feed](https://twitter.com/mod_labs) and [GitHub repositories](https://github.com/markitondemand). 
+The effort of designing and developing this site was quite literally the definition of collaboration. [Tim](https://twitter.com/tim_burcham) and I worked closely with [Phil](https://twitter.com/raucreativity) and [Michael](https://twitter.com/beardfury), two talented front-end designers, to create the MOD/L logo and this website's design. Our goals were threefold: create something unique, uncomplicated, thoughtful and responsive; showcase in-progress and completed MOD/L projects alongside a blog; provide easy access to our [Twitter feed](https://twitter.com/mod_labs) and [GitHub repositories](https://github.com/markitondemand). 
 
 #### Leading with design
 
@@ -45,7 +45,7 @@ It's only a coincidence that the final MOD/L logo looks great on a t-shirt. Much
 
 #### Putting the pedal to the metal
 
-We built this site in 3 days. 
+We built this site in 4 days.
 
 Getting started building a simple website these days is easier than ever. Using tools like [Yeoman](http://yeoman.io/) and [HTML5 boilerpate](http://html5boilerplate.com/) greatly simplify setting up. Implementing [Bootstrap 3](http://getbootstrap.com)'s grid system and components prevents you from having to worry about the engine and lets you focus on the handling.
 
