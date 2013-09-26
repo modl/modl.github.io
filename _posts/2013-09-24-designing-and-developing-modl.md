@@ -57,4 +57,6 @@ When it comes to hosting, we are using [GitHub Pages](http://pages.github.com/).
 
 We wanted to design and develop this website quickly so we could turn our efforts to project work where we're aiming to enhance existing capabilities, create new solutions, and foster innovation across our organization. In the coming weeks and months, look for blog posts on a wide range of topics sourced from our 20+ teams. Also watch for updates to projects we're working on including [Jetpack](/#jetpack) <span class="char-code">&alpha;</span>lpha and <span class="char-code">&beta;</span>eta ideas.
 
+<img src="{{site.baseurl}}images/articles/building_modl/ipad.png" class="img-responsive" alt="T-Shirts" />
+
 If you have thoughts on or find issues with our new website, [let us know on Twitter](https://twitter.com/mod_labs).
