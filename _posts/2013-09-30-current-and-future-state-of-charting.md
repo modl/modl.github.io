@@ -30,7 +30,14 @@ MOD/L has assembled an elite team of charting experts to build upon our charting
 
 The overall approach is to go *imageless*: use the charting metadata, data model, and overall intelligence -- but not the raster image.  Hand the rendering over to the client, be it browser or native device, and handle the rendering where it can be better manipulated, and interacted with.
 
-Some of this effort has already resulted in LiveCharts, a new capability for iOS charting, allowing for &quot;pinch and zoom&quot; and smooth, native interactions. Need more LiveCharts copy here, and an image.
+<div class="row">
+	<div class="col-md-8 col-sm-8">
+<p>Some of this effort has already resulted in LiveCharts, a new capability for iOS charting, allowing for &quot;pinch and zoom&quot; and smooth, native interactions. Created as an SDK, it allows an iOS developer to add an interactive chart of nearly any size to an existing iPad or iPhone application. It also brings classic upper and lower indicators, customizable themes and UI, and can be added with only a few lines of code.</p>
+	</div>
+	<div class="col-md-4 col-sm-4">
+<img src="{{site.url}}/images/articles/charting/livecharts.png" class="img-responsive img-rounded" alt="LiveCharts iOS SDK" />
+	</div>
+</div>
 
 The team is also currently in the &alpha;lpha stage of a Jetpack project to push the boundaries of browser-based charting.   The Jetpack project is focused on Charting Tools, and raising the ante on MOD's capabilities in that space. However, the technology and technical skills used to accompish this will be applicable to the other charting trends we see. 
 

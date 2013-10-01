@@ -178,6 +178,17 @@ ul.list-group li {
 	font-size: 10pt;
 }
 
+.post .row,
+.posts .row {
+	margin-left:-15px;
+	margin-right:15px;
+}
+
+.post .row img,
+.posts .row img {
+	margin:15px;
+}
+
 .black-module code {
 	font-size: 15px;
 	color: #45C4FF;
