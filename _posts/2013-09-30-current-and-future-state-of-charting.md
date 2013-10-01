@@ -11,7 +11,7 @@ excerpt: MOD set the bar in web-based financial charting over a decade ago, and 
 
 MOD set the bar in web-based financial charting over a decade ago. Using a combination of precision design, our handcrafted charting technology, Ajax, and carefully implemented javascript UI, we were able to eliminate the reliance on Java applets and Flash files for customized equity charts. We have refined the underlying technology to minimize our implementation time, even while making the charts even more customizable. We have also refined all of the tiny details that go into making a chart beautiful, down to the last axis tick and Nikkei lunch break. This charting platform has been primarily image-based, with accompanying meta data to drive interactivity. 
 
-<img src="{{site.url}}/images/articles/chart.png" class="img-responsive" alt="Current Charting" />
+<img src="{{site.url}}/images/articles/charting/chart.png" class="img-responsive" alt="Current Charting" />
 
 Today, users expect even more from their charts -- both in their browser, as well as on their tables and phones. They expect a high level of interactivity, including &lsquo;pinch and zoom&rsquo;, drawing trendlines and Fibonacci retracements, and the ability to share a chart with other investors. They expect streaming on the chart, animated transitions, as well as every possible indicator known to Technical Analysis.
 
