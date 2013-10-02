@@ -46,6 +46,6 @@ In the Data Visualization space, we are able to draw on our teams' knowledge of 
 
 <img src="{{site.url}}/images/globe.png" class="img-responsive" alt="Visualization of usage data using WebGL" />
 
-Other next-gen areas we are exploring include 3D Charting : topographic plots of data, histogram geogrpahic displays on 3D globes using WebGL; Financial Data as Art : for example, massive renderings of large datasets in print form; 
+Other next-gen areas we are exploring include 3D Charting : topographic plots of data, histogram geographic displays on 3D globes using WebGL; Financial Data as Art : for example, massive renderings of large datasets in print form; and network visualizations across trading relationships. 
 
 
