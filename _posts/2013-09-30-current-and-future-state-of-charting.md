@@ -41,7 +41,7 @@ The overall approach is to go *imageless*: use the charting metadata, data model
 	</div>
 </div>
 
-The team is also currently in the &alpha;lpha stage of a Jetpack project to push the boundaries of browser-based charting.   The Jetpack project is focused on Charting Tools, and raising the ante on MOD's capabilities in that space. However, the technology and technical skills used to accompish this will be applicable to the other charting areas we are working in. 
+The team is also currently in the &alpha;lpha stage of a Jetpack project to push the boundaries of browser-based charting. The Jetpack project is focused on Charting Tools, and raising the ante on MOD's capabilities in that space. However, the technology and technical skills used to accompish this will be applicable to the other charting areas we are working in. 
 
 In the Data Visualization space, our team continues to work to derive relationships and insight from datasets. As part of this we are creating tools that help investors explore datasets in new visual ways and we are also looking at narrative-based explorations to use data to tell stories. 
 
