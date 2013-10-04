@@ -1,8 +1,23 @@
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=6aa8a323-2fa4-4096-8bf0-56f0cab24aec");
+@font-face{
+font-family:"Univers LT W02 45 Light";
+src:url("Fonts/34ecd7fc-f469-4e0c-980b-6d7fcec493da.eot?#iefix");
+src:url("Fonts/34ecd7fc-f469-4e0c-980b-6d7fcec493da.eot?#iefix") format("eot"),url("Fonts/47a5b741-405e-4d03-ba4a-e50cc7716ddf.woff") format("woff"),url("Fonts/6ef60ba5-712c-4ea5-9e57-0242591afed0.ttf") format("truetype"),url("Fonts/ae2bbb03-6095-4a28-a333-555527bde8f6.svg#ae2bbb03-6095-4a28-a333-555527bde8f6") format("svg");
+}
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://webfonts.fonts.com
+*/
+
+
 body { 
    background: url(../images/docadehedron_bg.png) no-repeat 60% 0%;
    background-color: black;
    background-attachment: fixed;
-   font-family: "akzidenz-grotesk-next",sans-serif;
+   font-family: "Univers LT W02 45 Light",sans-serif;
    font-style: normal;
    font-weight: 200;
 }
@@ -159,7 +174,7 @@ ul.list-group li {
 	margin-top: 12px;
 }
 .list-group-item h3 {
-	font-family: "akzidenz-grotesk-next",sans-serif;
+	font-family: "Univers LT W02 45 Light",sans-serif;
 	font-style: normal;
 	font-weight: 200;
 	margin: 0;
@@ -205,11 +220,11 @@ h3 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "akzidenz-grotesk-next",sans-serif;
+	font-family: "Univers LT W02 45 Light",sans-serif;
 }
  
 h4 {
-	font-family: "akzidenz-grotesk-next",sans-serif;
+	font-family: "Univers LT W02 45 Light",sans-serif;
 	font-style: normal;
 	font-weight: 200;
 	font-size: 11pt;
@@ -229,7 +244,7 @@ h4 + div {
 
 h2 {
 	font-size: 28pt;
-	font-family: "akzidenz-grotesk-next",sans-serif;
+	font-family: "Univers LT W02 45 Light",sans-serif;
 	font-style: normal;
 	font-weight: 200;
 	color: #FFF;
@@ -293,7 +308,7 @@ h2 {
 }
 
 .black-module h3 {
-	font-family: "akzidenz-grotesk-next",sans-serif;
+	font-family: "Univers LT W02 45 Light",sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	color: #45C4FF;
