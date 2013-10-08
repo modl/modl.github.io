@@ -15,6 +15,7 @@ tags:
 author: Mark Healey
 excerpt: We wanted a logo and website that represented the multi-faceted and cross-team nature of our work.
 date: 2013-10-01
+permalink: /articles/creating_modl
 ---
 
 ### col&bull;lab&bull;o&bull;ra&bull;tion: the action of working with someone to produce or create something.

@@ -1,10 +1,18 @@
 ---
 layout: post
 title: The Current and Future State of Charting
-category: charting
-tags: charting
+categories: 
+- charting
+- development
+tags: 
+- Charting
+- Highcharts
+- D3
+- Mobile
 author: Tim Burcham
 excerpt: MOD set the bar in web-based financial charting over a decade ago, and is focused on the next generation of browser-based, imageless charting.
+date: 2013-10-07
+permalink: /articles/charting
 ---
 
 ###Where Are We Now?
@@ -24,7 +32,7 @@ Broadly, MOD sees charting trending on three paths: Charting Tools or Systems, Q
 * **Charting Tools** are the interactive charts and platforms we deploy on our sites for investors to use -- these are about building a flexible set of tools that can run in production with a wide variety of datasets and conditions.
 * **Data Visualizations** are more of the infographic or point in time narrative/study variety; at times, they can function with dynamic datasets over time, but we are not always seeing this as a necessity. These are often solved using D3, and using non-traditional visualization techniques, for non-traditional datasets.
 * **Chart Creation Tools** are generally simple tools with a finite number of configurable parameters, such as width and height, chart type, and colors, delivered in a consistent look and feel. The output format of these might vary from PNG/JPG to EPS, depending on the final use. These are typically used by a journalist, publisher, or analyst to create graphics as needed inside of a publishing workflow, on a tight timeframe, in a look and feel consistent with their overall organization. Data sources for these can include both dynamic datasets, as well as bespoke, manually entered datasets.
-	Recently, a tool known as [Quartz Chart Builder](quartz.github.io/Chartbuilder) was open-sourced. It works in a very similar fashion as MOD's Chart Builders, though it lacks some of the flexibility we often include. It was written specifically to solve the problem of tight publishing timeframes, yet consistent look and feel and flexibility.
+	Recently, a tool known as [Quartz Chart Builder](quartz.github.io/Chartbuilder) was open-sourced. It works in a very similar fashion as MOD's Chart Creation Tools, though it lacks some of the flexibility we often include. It was written specifically to solve the problem of tight publishing timeframes, yet consistent look and feel and flexibility.
 
 ###What Are We Doing About It?
 
