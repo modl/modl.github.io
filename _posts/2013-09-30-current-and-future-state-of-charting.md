@@ -36,7 +36,7 @@ Broadly, MOD sees charting trending on three paths: Charting Tools or Systems, Q
 
 ###What Are We Doing About It?
 
-MOD/L has assembled an elite team of charting experts to build upon our charting capabilities, and allow our charts to do all of the above, and more. Each member of this team has reviewed and worked with various charting packages, frameworks and technologies over the years, including [HighCharts](http://highcharts.com), [D3](http://d3js.org), [WebGL](http://www.chromeexperiments.com/webgl/), [Three.js](http://threejs.org/), [Shinobi](http://shinobi.com) and many others. We are using the best parts of our own technologies, partnering and learning from others in this space, and combining all of it again set the bar on interactive financial charting.
+MOD/L has assembled an elite team of charting experts to build upon our charting capabilities, and allow our charts to do all of the above, and more. Each member of this team has reviewed and worked with various charting packages, frameworks and technologies over the years, including [HighCharts](http://highcharts.com), [D3](http://d3js.org), [WebGL](http://www.chromeexperiments.com/webgl/), [Three.js](http://threejs.org/), [Shinobi](http://www.shinobicontrols.com) and many others. We are using the best parts of our own technologies, partnering and learning from others in this space, and combining all of it again set the bar on interactive financial charting.
 
 The overall approach is to go *imageless*: use the charting metadata, data model, and overall intelligence -- but not the raster image.  Hand the rendering over to the client, be it browser or native device, and handle the rendering where it can be better manipulated, and interacted with.
 
