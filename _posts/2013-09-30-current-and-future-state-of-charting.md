@@ -23,7 +23,7 @@ We have refined the underlying technology to minimize our implementation time, e
 
 <img src="{{site.url}}/images/articles/charting/chart.png" class="img-responsive" alt="Current Charting" />
 
-Today, investors expect even more from their charts -- both in their browser, as well as on their tables and phones. They demand a high level of interactivity, including &lsquo;pinch and zoom&rsquo;, drawing trendlines and Fibonacci retracements, and the ability to share a chart with others. They expect streaming on the chart, intuitive transitions, as well as every possible indicator known to Technical Analysis.
+Today, investors expect even more from their charts -- both in their browser, as well as on their tablets and phones. They demand a high level of interactivity, including &lsquo;pinch and zoom&rsquo;, drawing trendlines and Fibonacci retracements, and the ability to share a chart with others. They expect streaming on the chart, intuitive transitions, as well as every possible indicator known to Technical Analysis.
 
 In the past, browser incompatibilities and performance issues made true browser-based charting very difficult. As browser makers have continued to implement web standards, and machine and tablet performance continues to follow Moore&rsquo;s Law, achieving investor's expectations on charting is very achievable.  Translation libraries such as Jquery and D3 allow for browser differences (especially around vector rendering, which remains inconsistent) to be abstracted away, freeing developers to focus on the charts, rather than the browsers.
 
