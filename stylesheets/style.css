@@ -388,6 +388,12 @@ img.img-thumbnail {
 	background-color: transparent;
 }
 
+small.caption {
+	color: #45C4FF;
+	font-style: italic;
+	font-size: 13px;
+}
+
 footer {
 	border-top: solid 1px #45C4FF;
 	margin-top: 20px;

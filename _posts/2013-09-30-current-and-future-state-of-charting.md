@@ -40,20 +40,17 @@ MOD/L has assembled an elite team of charting experts to build upon our charting
 
 The overall approach is to go *imageless*: use the charting metadata, data model, and overall intelligence -- but not the raster image.  Hand the rendering over to the client, be it browser or native device, and handle the rendering where it can be better manipulated, and interacted with.
 
-<div class="row">
-	<div class="col-md-8 col-sm-8">
-<p>Some of this effort has already resulted in LiveCharts, a new capability for iOS charting, allowing for &quot;pinch and zoom&quot; and smooth, native interactions. Created as an SDK, it allows an iOS developer to add an interactive chart of nearly any size to an existing iPad or iPhone application. It also brings classic upper and lower indicators, customizable themes and UI, and can be added with only a few lines of code.</p>
-	</div>
-	<div class="col-md-4 col-sm-4">
-<img src="{{site.url}}/images/articles/charting/livecharts.png" class="img-responsive img-rounded" alt="LiveCharts iOS SDK" />
-	</div>
-</div>
+Some of this effort has already resulted in LiveCharts, a new capability for iOS charting, allowing for &quot;pinch and zoom&quot; and smooth, native interactions. Created as an SDK, it allows an iOS developer to add an interactive chart of nearly any size to an existing iPad or iPhone application. It also brings classic upper and lower indicators, customizable themes and UI, and can be added with only a few lines of code.
+
+<img src="/images/articles/charting/livecharts3.png" class="img-responsive ximg-rounded ximg-thumbnail" alt="LiveCharts iOS SDK" />
+
+<small class="caption">Above: Our demo app using the LiveCharts iOS SDK</small>
 
 The team is also currently in the &alpha;lpha stage of a Jetpack project to push the boundaries of browser-based charting. The Jetpack project is focused on Charting Tools, and raising the ante on MOD's capabilities in that space. However, the technology and technical skills used to accompish this will be applicable to the other charting areas we are working in. 
 
 In the Data Visualization space, our team continues to work to derive relationships and insight from datasets. As part of this we are creating tools that help investors explore datasets in new visual ways and we are also looking at narrative-based explorations to use data to tell stories. 
 
-<img src="{{site.url}}/images/globe.png" class="img-responsive" alt="Visualization of usage data using WebGL" />
+<img src="{{site.url}}/images/globe.png" class="img-responsive img-thumbnail" alt="Visualization of usage data using WebGL" />
 
 Other next-gen areas we are exploring include 3D Charting : topographic plots of data, histogram geographic displays on 3D globes using WebGL; Financial Data as Art : for example, massive renderings of large datasets in print form; and network visualizations across trading relationships. 
 
