@@ -42,7 +42,7 @@ The overall approach is to go *imageless*: use the charting metadata, data model
 
 Some of this effort has already resulted in LiveCharts, a new capability for iOS charting, allowing for &quot;pinch and zoom&quot; and smooth, native interactions. Created as an SDK, it allows an iOS developer to add an interactive chart of nearly any size to an existing iPad or iPhone application. It also brings classic upper and lower indicators, customizable themes and UI, and can be added with only a few lines of code.
 
-<img src="/images/articles/charting/LiveCharts3.png" class="img-responsive ximg-rounded ximg-thumbnail" alt="LiveCharts iOS SDK" />
+<img src="{{site.url}}/images/articles/charting/LiveCharts3.png" class="img-responsive ximg-rounded ximg-thumbnail" alt="LiveCharts iOS SDK" />
 
 <small class="caption">Above: Our demo app using the LiveCharts iOS SDK</small>
 
