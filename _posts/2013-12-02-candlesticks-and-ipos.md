@@ -11,9 +11,9 @@ tags:
 - Financial Education
 author: Michael Repsher &amp; Jason Meshnick
 excerpt: The Twitter IPO provided us a good opportunity to have a hard look at our pages and see what we did well and what we could do better. This led our teams to explore the pros and cons of different charting techniques, specifically around the lack of candlesticks on intraday charts.
-date: 2013-12-02
+date: 2013-12-03
 permalink: /articles/candlesticks
-published: false
+published: true
 ---
 
 The Twitter IPO provided us a good opportunity to have a hard look at our pages and see what we did well and what we could do better. There are generally lots of IPOs throughout the year so we have plenty of opportunities to make adjustments and test them out before the next huge IPO comes along. Being an IPO we don't have a lot of data to work with so we need to make sure what shows is perfect. On the IPO date the main data will be centered on quotes, charts and news -- quotes and news typically work great, but charts always seem to have a lot of variation. Our study of charts around this event led the groups to a great discussion of using Candlesticks versus Mountains or Lines on charts, especially when part of the story you're trying to tell an investor is about the opening price of a security.
@@ -38,7 +38,7 @@ Now, a chart that didn't handle it so well:
 
 This chart doesn't show the $26 open price, and the opening 'dialtone' on the chart misleads around when trading actually started.
 
-In fact, showing the open price proved to be the hardest part of anyone in the world showing a good IPO day chart -- weird spikes, or overly flat charts that didn't show what had truly happened.  This led to a discussion mountain and candlestick charts.
+In fact, showing the open price proved to be the hardest part for anyone on the web showing a good IPO day chart -- weird spikes, or overly flat charts that didn't show what had truly happened.  This led to a discussion mountain and candlestick charts.
 
 
 ###Let's start with a quick lesson in charting stocks:
@@ -49,24 +49,21 @@ Other frequencies might be intra-day, weekly, monthly, etc. One frequency of int
 
 For our examples today, we'll be looking at a one-day chart of TWTR using 1-minute data frequency.
 
-Still with me?
-
 ###Mountain Chart:
 
 A mountain chart is the same as a line chart, except the area below the line is shaded in. Fancy.
 
-####So, to build our mountain chart of TWTR, what data do we need?
+So, to build our mountain chart of TWTR, what data do we need? An entire day's worth of 1-minute frequency OHLC data.
 
-That's right. We need an entire day's worth of 1-minute frequency OHLC data.
+Since the market opens at 9:30am ET and closes at 4pm ET, that's 391 minutes of data.
 
-Since the market opens at 9:30 ET and closes at 4pm ET, that's 391 minutes of data.
+Now, take your OHLC data and toss out the O,H, and L data. That's right, mountain charts only use closing data. But that shouldn't be a big deal. Should it?
 
-Okay. Now, take your OHLC data and toss out the O,H, and L data. That's right, mountain charts only use closing data. But that shouldn't be a big deal. Should it?
-
-Here's a mountain chart of TWTR's trading activity on its first day of trading in the secondary market (the NYSE). Note that the stock did not start trading until 10:49. That's because this was a &lsquo;hot IPO&rsquo; (that's a real term) and the NYSE needed to conduct an auction in order to find the opening price that would satisfy the greatest number of participants.
+Here's a mountain chart of TWTR's trading activity on its first day of trading in the secondary market (the NYSE). Note that the stock did not start trading until 10:49am. That's because this was a [&lsquo;hot IPO&rsquo;](http://www.investopedia.com/terms/h/hotipo.asp) (that's a real term) and the NYSE needed to conduct an auction in order to find the opening price that would satisfy the greatest number of participants.
 
 
-chart
+<img src="{{site.url}}/images/articles/candlestick_ipo/mountain.png" class="img-responsive img-thumbnail" alt="Mountain Chart" />
+<br />
 
 
 Remember, this chart is made using the closing prices from each one-minute block of time. So, the first point on this chart is based off the closing price of the period between 10:49:00 and 10:49:59.
@@ -75,15 +72,16 @@ Remember, this chart is made using the closing prices from each one-minute block
 * Now, use any tool available to you and answer the same question.
 The correct answer is $45.10. Did you have trouble answering that one using the mountain chart?
 
-###Candlestick chart:
+###Candlestick Chart:
 
-Candlesticks were invented by Japanese rice traders hundreds of years ago and are used most often by active traders and technical analysts because they provide significantly more information in a compact format than a line chart.
+Candlesticks were [invented by Japanese rice traders](http://en.wikipedia.org/wiki/Candlestick_chart#History) hundreds of years ago and are used most often by active traders and technical analysts because they provide significantly more information in a compact format than a line chart.
 
 But, they require some up front education and some people think they look a lot like Christmas.
 
 
 
-chart
+<img src="{{site.url}}/images/articles/candlestick_ipo/candlestick.png" class="img-responsive img-thumbnail" alt="Candlestick Chart" />
+<br />
 
 The red and green boxes are the candlesticks and each one represents the OHLC data for that 1-minute period. They're hard to see on this particular chart. Ideally, a chart should have about 50-150 periods for the best combination of readability and granularity.
 
@@ -116,13 +114,16 @@ Therefore, candlestick charts provide 6 different pieces of information in a qui
 
 ####Now, back to TWTR.
 
-When we looked at the mountain chart, we tried to figure out where the stock opened. Let's do the same thing with the candlestick chart (you'll have to scroll back to see it).
+When we looked at the mountain chart, we tried to figure out where the stock opened. Let's do the same thing with the candlestick chart.
 
-* Approximately what price did TWTR open for trading at?
+<img src="{{site.url}}/images/articles/candlestick_ipo/candlestick.png" class="img-responsive img-thumbnail" alt="Candlestick Chart" />
+<br />
+
+Approximately what price did TWTR open for trading at?
 
 Answer: Since the candle is unfilled, that means that TWTR's opening price is at the bottom of the box and the closing price is at the top of the box. The opening price was 45.10. The closing price was 45.97. The high was 48.15 and the low was 44.99.
 
-###Should Candlestick charts become the new standard?
+###Should Candlestick charts become a new standard?
 
 Candlestick charts are better. However, if you don't care about granularity and are looking at the overall trend of the data, then a mountain chart is fine. This is the case with most of the charts on our stock and market summary pages. Same with an ultra-long-term chart, like a 20-year price chart. Last, some data series, like economic data, don't have OHLC.
 
@@ -138,7 +139,9 @@ Both chart types have their place.
 * Where you need granularity, Candlestick charts are the way to go. For a high level view of the trend, a mountain chart is adequate.
 
 
-
-
-
+####Additional Credits:
+* Mario Amato
+* Eric Lennert
+* Brett Hobbs
+* Monique Mudama
 
