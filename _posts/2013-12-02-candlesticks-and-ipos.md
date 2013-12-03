@@ -87,13 +87,13 @@ The red and green boxes are the candlesticks and each one represents the OHLC da
 
 The picture below is a good representation of how a candlestick incorporates a full day's price activity. On the left, is a chart showing every single trade that occurred during the minute (a tick chart). The first trade for this period was above the prior minute's close. The stock initially moved higher before declining below the open to the point labeled &lsquo;1-minute low&rsquo;. The stock then rallied to the &lsquo;1-minute high&rsquo; and finally ended this period just below the high.
 
-<img src="{{site.url}}/images/articles/candlestick_ipo/candlestickexplainer.png" class="img-responsive img-thumbnail" alt="Candlestick" />
+<img src="{{site.url}}/images/articles/candlestick_ipo/CandlestickExplainer.png" class="img-responsive img-thumbnail" alt="Candlestick" />
 
 On the right, we see the same data represented by a single candle. This is the data on the left, but rolled up into OHLC data. The open and closing prices are bounded by the thick box. The range of the minute is represented by the thinner lines, called shadows. The box is unfilled because the close was above the open and the entire candle is green because the closing price is above the prior closing price.
 
 Here are the general rules for candlestick construction:
 
-<img src="{{site.url}}/images/articles/candlestick_ipo/candlestickredandgreenbodies.png" class="img-responsive img-thumbnail" alt="Candlestick Diagram" />
+<img src="{{site.url}}/images/articles/candlestick_ipo/CandlestickRedandGreenBodies.png" class="img-responsive img-thumbnail" alt="Candlestick Diagram" />
 
 Red or Green signify whether the current candle's close higher or lower than the prior candle's close.
 
