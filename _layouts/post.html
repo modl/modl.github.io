@@ -6,7 +6,17 @@ layout: default
 		<a href="{{site.url}}/" class="xhidden-sm hidden-xs">&laquo; Back </a><br/><br/>
 		<div class="post">
 			<h2>{{ page.title }}</h2>
-			<p class="meta">{{ page.date | date_to_string }} &mdash; By {{page.author}}</p>
+			<p class="meta">{{ page.date | date_to_string }} &mdash; By 
+				{% for author in page.author %}
+					{{author}}{% if forloop.index < forloop.length %},&nbsp;{% endif %}
+				{% endfor %} 
+				{% if page.twitter_handle %}<span class="twitter_handle">
+				(
+					{% for handle in page.twitter_handle %}
+						<a href="https://twitter.com/{{handle}}" target="_blank">@{{handle}}</a>{% if forloop.index < forloop.length %},{% endif %}
+					{% endfor %}
+				)
+				{% endif %}</p>
 			<div class="black-module post">
 				{{ content }}
 				<br>

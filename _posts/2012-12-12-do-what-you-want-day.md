@@ -3,6 +3,7 @@ layout: post
 title: Do What You Want Day
 categories: dwywd
 author: Sterling White
+twitter_handle: hey_sterling
 tags: 
 - Innovation 
 - DWYWD

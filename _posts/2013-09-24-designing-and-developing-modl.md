@@ -13,6 +13,7 @@ tags:
 - Responsive Web Design
 - Jekyll
 author: Mark Healey
+twitter_handle: markhealey
 excerpt: We wanted a logo and website that represented the multi-faceted and cross-team nature of our work.
 date: 2013-10-01
 permalink: /articles/creating_modl

@@ -9,7 +9,12 @@ tags:
 - Charting
 - IPOs
 - Financial Education
-author: Michael Repsher &amp; Jason Meshnick
+author: 
+- Michael Repsher
+- Jason Meshnick
+twitter_handle:
+- MRepsher
+- jasonmesh
 excerpt: The Twitter IPO provided us a good opportunity to have a hard look at our pages and see what we did well and what we could do better. This led our teams to explore the pros and cons of different charting techniques, specifically around the lack of candlesticks on intraday charts.
 date: 2013-12-03
 permalink: /articles/candlesticks

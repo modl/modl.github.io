@@ -193,6 +193,10 @@ ul.list-group li {
 	font-size: 10pt;
 }
 
+.twitter_handle {
+	text-transform: none;
+}
+
 .post .row,
 .posts .row {
 	margin-left:-15px;

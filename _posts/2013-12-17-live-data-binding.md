@@ -11,8 +11,9 @@ tags:
 - react
 - emberjs
 author: Chris Montrois
+twitter_handle: montlebalm
 excerpt: If Words With Friends can ping you seconds after an update occurs why can't your bank?
-date: 2013-12-17
+date: 2013-12-18
 permalink: /articles/live-data-binding-with-angularjs-react-emberjs
 published: true
 ---

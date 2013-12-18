@@ -10,6 +10,7 @@ tags:
 - D3
 - Mobile
 author: Tim Burcham
+twitter_handle: tim_burcham
 excerpt: MOD set the bar in web-based financial charting over a decade ago, and is focused on the next generation of browser-based, imageless charting.
 date: 2013-10-07
 permalink: /articles/charting
