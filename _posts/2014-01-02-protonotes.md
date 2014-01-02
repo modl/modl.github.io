@@ -9,12 +9,11 @@ tags:
 - communication
 - development
 - design
-author: 
-- Neil McCorrison
-excerpt: 
+author: Neil McCorrison
+excerpt: We use a simple but highly effective approach to shorten communication cycles in our design and development stages.
 date: 2014-01-02
 permalink: /articles/protonotes
-published: false
+published: true
 ---
 
 ProtoNotes evolved from a concept several of our Senior Web Developers came up with during a break out session. We wanted to find a way to make managing requirements easier and in the forefront of the development cycle. ProtoNotes allows you to put thoughts, questions and requirements directly on top of a prototype image. We use it constantly to communicate across teams and ensure that each component of a page is understood.

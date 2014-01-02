@@ -18,7 +18,7 @@ twitter_handle:
 excerpt: The Twitter IPO provided us a good opportunity to have a hard look at our pages and see what we did well and what we could do better. This led our teams to explore the pros and cons of different charting techniques, specifically around the lack of candlesticks on intraday charts.
 date: 2013-12-03
 permalink: /articles/candlesticks
-published: true
+published: false
 ---
 
 The Twitter IPO provided us a good opportunity to have a hard look at our pages and see what we did well and what we could do better. There are generally lots of IPOs throughout the year so we have plenty of opportunities to make adjustments and test them out before the next huge IPO comes along. We normally have countless datasets available for any given security, but not for stocks on IPO day so we need to make sure what is displayed is perfect. On the IPO date the main data will be centered on quotes, charts and news &mdash; quotes and news typically work great while charts always seem to have a lot of variation. Our study of charts around this event led the groups to a great discussion of using Candlesticks versus Mountains or Lines on charts, especially when part of the story you're trying to tell an investor is about the opening price of a security.
