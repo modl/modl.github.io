@@ -6,8 +6,9 @@ categories:
 - design
 - fintech
 tags: 
-- NLP
-- Disruptive
+- Dev Bootcamp
+- PFM
+- Disruptive Technology
 author: 
 - MOD/L team
 twitter_handle:
