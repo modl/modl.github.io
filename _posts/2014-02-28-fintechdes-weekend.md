@@ -31,11 +31,11 @@ The last two weeks of our favorite links : Wolfram Language, RefactorU Demo Day 
 
 [Thinknum](http://www.benzinga.com/news/14/02/4308149/two-man-startup-attracts-jpmorgan-and-goldman-sachs-other-clients) - crowd-sourced financial analysis startup
 
-The latest in [Personal Finance Managers](hhttps://twitter.com/Finovate/status/435907991662239745) (PFM), including automated wealth management
+The latest in [Personal Finance Managers](https://twitter.com/Finovate/status/435907991662239745) (PFM), including automated wealth management
 
 This is Why Data Startups Are [Disrupting Financial Analysis](http://www.wallstreetandtech.com/data-management/this-is-why-data-startups-are-disrupting/240166176)
 
-No [windows](hhttp://www.wired.com/autopia/2014/02/supersonic-jet-video-windows/) in an upcoming supersonic business jet 
+No [windows](http://www.wired.com/autopia/2014/02/supersonic-jet-video-windows/) in an upcoming supersonic business jet 
 
 Build a browser-based 'Train Billboard' aka [Split-flap Display](http://viget.com/inspire/make-a-flippin-3d-countdown-with-css-and-javascript)
 
