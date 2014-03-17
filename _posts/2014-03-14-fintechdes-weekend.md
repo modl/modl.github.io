@@ -23,6 +23,9 @@ permalink: /articles/fintechdes3
 published: true
 ---
 
+**Update March 17**: [Grab the Readlist](http://readlists.com/9159f61b/) and get an e-book on Kindle, iBooks or email in one click!
+
+
 Our favorite finds for March so far &mdash; Markit &amp; SMA social sentiment, NLP for meetings, and iOS Carplay among others.
 
 [Markit and Social Media Analytics](http://www.markit.com/Company/Media-Centre?CMSID=478fec2b35f8465da8aa0f6c8925e0f0) partner on social financial sentiment data
