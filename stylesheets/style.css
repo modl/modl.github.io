@@ -215,6 +215,10 @@ ul.list-group li {
 	border: 1px solid #00345e;
 }
 
+.twitterWidget {
+	padding:10px 15px !important;
+}
+
 h3 {
 	font-weight: 200;
 }
