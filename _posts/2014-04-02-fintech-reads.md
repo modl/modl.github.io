@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FinTech &amp; Design Reads 4
+title: FinTech &amp; Design Reads Issue #4
 categories: 
 - development
 - design
@@ -22,8 +22,9 @@ twitter_handle:
 excerpt: Our favorite tech reads from late March and early April. 
 date: 2014-04-02
 permalink: /articles/fintech-reads-issue-4
-published: false
+published: true
 ---
 
 [Grab the Readlist](http://readlists.com/5fa986d4/) and get an e-book on Kindle, iBooks or email in one click!
 
+<iframe width="450" height="600" frameborder="0" src="http://readlists.com/5fa986d4/embed"></iframe>
