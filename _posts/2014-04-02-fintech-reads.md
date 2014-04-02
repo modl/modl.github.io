@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FinTech &amp; Design Reads Issue #4
+title: FinTech &amp; Design Reads Issue 4
 categories: 
 - development
 - design
@@ -27,6 +27,6 @@ published: true
 
 [Grab the Readlist](http://readlists.com/5fa986d4/) and get an e-book on Kindle, iBooks or email in one click!
 
-<div style="padding-left: 10px;">
+<div style="padding:0 2px;">
   <iframe width="100%" height="800" frameborder="0" src="http://readlists.com/5fa986d4/embed"></iframe>
 </div>
