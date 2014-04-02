@@ -15,6 +15,10 @@ tags:
 - Maps
 - Famo.us
 - Capital One
+- 60 Minutes
+- IEX
+- Thinknum
+- Fire TV
 author: 
 - MOD/L team
 twitter_handle:
