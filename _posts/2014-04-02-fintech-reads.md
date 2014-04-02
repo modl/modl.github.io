@@ -27,6 +27,6 @@ published: true
 
 [Grab the Readlist](http://readlists.com/5fa986d4/) and get an e-book on Kindle, iBooks or email in one click!
 
-<div style="padding:0 2px;">
+<div style="padding:10px;background-color:#fdfcfa;">
   <iframe width="100%" height="800" frameborder="0" src="http://readlists.com/5fa986d4/embed"></iframe>
 </div>
