@@ -23,7 +23,7 @@ twitter_handle:
 excerpt: Our favorite tech reads from April and early May. 
 date: 2014-05-16
 permalink: /articles/fintech-reads-issue-5
-published: false
+published: true
 ---
 
 Prefer to read this as an e-book? [Grab the Readlist](http://readlists.com/1a3423ab/) and get an e-book on Kindle, iBooks or email in one click!
