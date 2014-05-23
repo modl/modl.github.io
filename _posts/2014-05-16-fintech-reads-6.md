@@ -23,7 +23,7 @@ twitter_handle:
 excerpt: Our favorite tech reads for Memorial Day.
 date: 2014-05-23
 permalink: /articles/fintech-reads-issue-6
-published: false
+published: true
 ---
 
 Prefer to read this as an e-book? [Grab the Readlist](http://readlists.com/27d148ca/) and get an e-book on Kindle, iBooks or email in one click!
