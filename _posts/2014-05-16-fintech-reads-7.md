@@ -18,9 +18,9 @@ author:
 twitter_handle:
 - mod_labs
 excerpt: Our favorite fintech reads for early June
-date: 2014-06-16
+date: 2014-06-27
 permalink: /articles/fintech-reads-issue-7
-published: false
+published: true
 ---
 
 Prefer to read this as an e-book? [Grab the Readlist](http://readlists.com/e5ac09f3/) and get an e-book on Kindle, iBooks or email in one click!
