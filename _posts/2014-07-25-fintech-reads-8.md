@@ -37,7 +37,7 @@ Prefer to read this as an e-book? [Grab the Readlist](http://readlists.com/d84f2
 
 [Very Wealthy Investors Want Digitally Enabled Advisors](http://www.forbes.com/sites/tomgroenfeldt/2014/06/19/very-wealthy-investors-want-digitally-enabled-advisors/) The increase in the number of high net worth individuals (HNWI) last year was the second highest since 2000, surpassed only by immediate post-crisis catch-up growth in 2009, according to a global...
 
-[How Facebook beat Wall Street with data and tripled its share price](http://thenextweb.com/socialmedia/2014/07/21/facebook-beat-wall-street-data-tripled-share-price/) Maurice Coyle is the CEO and co-founder of HeyStaks,&#xA0;a search analytics startup that helps mobile operators monetize subscriber data usage and increases conversions for e-commerce stores....
+[How Facebook beat Wall Street with data and tripled its share price](http://thenextweb.com/socialmedia/2014/07/21/facebook-beat-wall-street-data-tripled-share-price/) To change the world you need money, so the first thing on the list was finding a way to generate revenues from the vast numbers of users (1.1Bn monthly visitors last time I checked – a ridiculous statistic!) who visit Facebook.
 
 [Finance blogger wisdom: the future for robo-advisors](http://abnormalreturns.com/finance-blogger-wisdom-future-robo-advisors/) The so-called robo-advisors, i.e. Wealthfront, Betterment, etc., have garnered a lot of hype (and VC money) in their pursuit of automated investment solutions. Will these firms become the new Charles Schwabs of the world or will automated portfolios simply be the way all advisors manage client accounts?
 
