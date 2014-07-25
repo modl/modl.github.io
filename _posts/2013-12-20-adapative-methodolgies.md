@@ -5,6 +5,7 @@ categories:
 - project management
 tags: 
 - Agile
+- Lean
 author: Tim Burcham
 excerpt: ...
 date: 2013-12-03
