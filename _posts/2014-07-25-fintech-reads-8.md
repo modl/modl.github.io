@@ -22,7 +22,7 @@ twitter_handle:
 excerpt: Mid-summer fintech reads featuring articles about Google, Facebook, robo-advisors, and some new open source tools of the trade.
 date: 2014-07-25
 permalink: /articles/fintech-reads-issue-8
-published: false
+published: true
 ---
 
 Prefer to read this as an e-book? [Grab the Readlist](http://readlists.com/d84f20c5) and get an e-book on Kindle, iBooks or email in one click!
