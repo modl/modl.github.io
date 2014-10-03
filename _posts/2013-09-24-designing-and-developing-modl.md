@@ -29,21 +29,21 @@ We started the process reviewing a handful of logo options. From deep space to l
 
 ##### Early Concepts
 
-<img src="{{site.baseurl}}images/articles/building_modl/early_concepts.png" class="img-responsive" alt="Early concepts" />
+<img src="/images/articles/building_modl/early_concepts.png" class="img-responsive" alt="Early concepts" />
 
 We wanted a logo that represented the multi-faceted and cross-team nature of our work. Something that signified cohesion and collaboration instead of something distant, isolated or mysterious. Halfway through a short second round, we all were attracted to Phil's dressed-up dodecahedron. It is simple yet complex, its many faces separate yet connected. Pretty much exactly our team structure within MOD.
 
 ##### Second Round
 
-<img src="{{site.baseurl}}images/articles/building_modl/second_round.png" class="img-responsive" alt="Second round" />
+<img src="/images/articles/building_modl/second_round.png" class="img-responsive" alt="Second round" />
 
 ##### Variations
 
-<img src="{{site.baseurl}}images/articles/building_modl/variations.png" class="img-responsive" alt="Dodecahedron variations" />
+<img src="/images/articles/building_modl/variations.png" class="img-responsive" alt="Dodecahedron variations" />
 
 It's only a coincidence that the final MOD/L logo looks great on a t-shirt. Much better than the rocket.
 
-<img src="{{site.baseurl}}images/articles/building_modl/tshirts.png" class="img-responsive" alt="T-Shirts" />
+<img src="/images/articles/building_modl/tshirts.png" class="img-responsive" alt="T-Shirts" />
 
 #### Putting the pedal to the metal
 
@@ -59,6 +59,6 @@ When it comes to hosting, we are using [GitHub Pages](http://pages.github.com/).
 
 We wanted to design and develop this website quickly so we could turn our efforts to project work where we're aiming to enhance existing capabilities, create new solutions, and foster innovation across our organization. In the coming weeks and months, look for blog posts on a wide range of topics sourced from our 20+ teams. Also watch for updates to projects we're working on including [Jetpack](/#jetpack) <span class="char-code">&alpha;</span>lpha and <span class="char-code">&beta;</span>eta ideas.
 
-<img src="{{site.baseurl}}images/articles/building_modl/ipad.png" class="img-responsive" alt="T-Shirts" />
+<img src="/images/articles/building_modl/ipad.png" class="img-responsive" alt="T-Shirts" />
 
 If you have thoughts on or find issues with our new website, [let us know on Twitter](https://twitter.com/mod_labs).
