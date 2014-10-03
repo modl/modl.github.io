@@ -71,7 +71,7 @@ The short answer on whether or not you need a "m." mobile website heavily depend
 
 ### Responsive design for finance is different
 
-We've all seen the [Boston Globe's groundbreaking responsive website](http://www.bostonglobe.com/). The Guardian has their [new responsive site in beta](http://www.theguardian.com/us?view=mobile#opt-in-message) (and [open sourced it](https://github.com/guardian/frontend)). Microsoft.com has been responsive [since 2012](http://rainypixels.com/words/the-story-of-the-new-microsoft-com/) and Apple's latest redesign is, too. Those sites all demonstrate RWD in their own way yet they're all media or product marketing sites. Examples of responsive *financial *websites are hard to find and therein lays the problem. Financial information is complex, it's highly regulated and it's often tabular. Responsive design for finance is different. We know this; Markit On Demand has been designing financial websites for more than 20 years. 
+We've all seen the [Boston Globe's groundbreaking responsive website](http://www.bostonglobe.com/). The Guardian has their [new responsive site in beta](http://www.theguardian.com/us?view=mobile#opt-in-message) (and [open sourced it](https://github.com/guardian/frontend)). Microsoft.com has been responsive [since 2012](http://rainypixels.com/words/the-story-of-the-new-microsoft-com/) and Apple's latest redesign is, too. Those sites all demonstrate RWD in their own way yet they're all media or product marketing sites. Examples of responsive *financial* websites are hard to find and therein lays the problem. Financial information is complex, it's highly regulated and it's often tabular. Responsive design for finance is different. We know this; Markit On Demand has been designing financial websites for more than 20 years. 
 
 **There's no "M" in "RWD".** It's important to note that responsive web design isn't limited to mobile devices despite the associated "[mobile first](http://alistapart.com/article/organizing-mobile/)" approach to building modern websites. The RWD methodology is device agnostic: you could shrink down a site for a 320-pixel screen and simultaneously use it to enhance a user experience on ultra-wide HDTVs.
 
@@ -130,7 +130,7 @@ Phones aren't used for in-depth research, so don't build a stock screener with a
 
 #### Equity research
 
-No one is reading 10-page PDF research documents on their phone. If they are, they're struggling. Alternatively, provide an abstract (140-characters or less) with an option to read it later (the "briefcase" feature). Possibly integrate with services like Readability or Pocket. On tablets, implement the full feature set and allow users to filter and view research on a device tailored for exploration and reading. 
+No one is reading 10-page PDF research documents on their phone. If they are, they're struggling. Alternatively, provide an abstract (140-characters or less) with an option to read it later (the "briefcase" feature). Possibly integrate with services like [Readability](https://readability.com/) or [Pocket](http://getpocket.com/). On tablets, implement the full feature set and allow users to filter and view research on a device tailored for exploration and reading. 
 
 #### Interactive charts
 
