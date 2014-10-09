@@ -208,6 +208,10 @@ ul.list-group li {
 	margin:15px;
 }
 
+.post iframe {
+	margin-left:20px;
+}
+
 .black-module code {
 	font-size: 15px;
 	color: #45C4FF;
