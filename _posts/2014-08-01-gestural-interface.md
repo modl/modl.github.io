@@ -14,7 +14,7 @@ tags:
 - Three.js
 author: Tim Burcham
 twitter_handle: tim_burcham
-excerpt: placeholder
+excerpt: Alternate user interfaces like the Leap Motion, Kinect, and Myo armband get us closer to the utopian interfaces from Minority Report and Iron Man. How do we best use these interfaces in financial applications?
 date: 2014-08-01
 permalink: /articles/gestural
 published: true
