@@ -30,7 +30,7 @@ twitter_handle:
 excerpt: Like the operating systems from Microsoft and Apple, we're skipping Issue 9 and going right to Issue 10. Delivered on 10/10.
 date: 2014-10-10
 permalink: /articles/fintech-reads-issue-10
-published: false
+published: true
 ---
 
 Prefer to read this as an e-book? [Grab the Readlist](http://readlists.com/7cabb651) and get an e-book on Kindle, iBooks or email in one click!
