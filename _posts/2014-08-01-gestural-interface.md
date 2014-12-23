@@ -4,6 +4,7 @@ title: Gestural
 categories: 
 - gestural
 - wearables
+- fintech
 tags: 
 - gestural
 - Leap Motion
