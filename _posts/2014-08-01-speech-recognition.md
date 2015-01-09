@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Speech Recognition and NLP -- making a Siri / Watson for personalized finance
+title: Speech Recognition and NLP &mdash; Making a Siri / Watson for Personalized Finance
 categories: 
 - speech recognition
 - nlp
@@ -17,7 +17,7 @@ author: Tim Burcham
 twitter_handle: tim_burcham
 excerpt: We combined several different technologies and existing capabilities to make a voice-driven, human-friendly financial answer engine.
 date: 2014-08-01
-permalink: /articles/speechrec
+permalink: /articles/speech-recognition-and-nlp
 published: true
 ---
 
