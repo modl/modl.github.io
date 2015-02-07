@@ -21,7 +21,7 @@ permalink: /articles/speech-recognition-and-nlp
 published: true
 ---
 
-Earlier in 2014, we got our hands on a Google Glass &mdash; and like many, struggled with its awkwardness as a wearable device, it's tiny postage stamp screen size, and more.  We pushed on with it, though, making a small notification-based app that would deliver a small stock summary to the Glass.
+Early in 2014, we got our hands on a Google Glass &mdash; and like many, struggled with its awkwardness as a wearable device, it's tiny postage stamp screen size, and more.  We pushed on with it, though, making a small notification-based app that would deliver a small stock summary to the Glass.
 
 It was while creating this that we stumbled on a great lateral feature of the Glass : Text-to-Speech (TTS). While struggling to view the tiny projected text, we found that there was a 'Read Aloud' option that performed as advertised, and a pleasant, non-robotic voice would read the stock update aloud to you.
 
