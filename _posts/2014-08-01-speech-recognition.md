@@ -16,7 +16,7 @@ tags:
 author: Tim Burcham
 twitter_handle: tim_burcham
 excerpt: We combined several different technologies and existing capabilities to make a voice-driven, human-friendly financial answer engine.
-date: 2014-08-01
+date: 2015-01-10
 permalink: /articles/speech-recognition-and-nlp
 published: true
 ---

@@ -16,7 +16,7 @@ tags:
 author: Tim Burcham
 twitter_handle: tim_burcham
 excerpt: Alternate user interfaces like the Leap Motion, Kinect, and Myo armband get us closer to the utopian interfaces from Minority Report and Iron Man. How do we best use these interfaces in financial applications?
-date: 2014-08-01
+date: 2014-12-20
 permalink: /articles/gestural-computing-in-finance
 published: true
 ---
@@ -45,7 +45,7 @@ When considering any of these types of devices in a gaming, music, performance a
 
 However, when considering business or particularly finance oriented applications, a more nuanced approach must be taken -- there aren't many physical interactions to necessarily model.  We've spent some time looking at this particular space, however, and have found a number of creative approaches to gestural computing for finance.
 
-MOD/L has built a simple example of combining Leap Motion and the LeapJS controller API, with HTML5 interactions, to both operate pinch and zoom on a stock chart, and rotating a 3d cube of portfolio performance:
+MOD/L worked closely with our development and design teams, to build a simple example of combining Leap Motion and the LeapJS controller API, with HTML5 interactions, to both operate pinch and zoom on a stock chart, and rotating a 3d cube of portfolio performance:
 
 <iframe src="//player.vimeo.com/video/100161138?color=0071a3" width="806" height="453" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 

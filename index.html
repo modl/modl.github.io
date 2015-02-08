@@ -107,7 +107,7 @@ layout: default
 
     <ul class="posts list-group">
       {% for post in site.posts %}
-        {% if forloop.index <= 10 %}
+        {% if forloop.index <= 5 %}
         <li class="list-group-item">
           <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
           <span class="meta">{{ post.date | date_to_string }}</span>
