@@ -466,6 +466,7 @@ footer .copy {
 	filter:alpha(opacity=80);
 	font-size: 12px;
 	line-height: normal;
+	padding-top: 12px;
 }
 
 .btn-default {
