@@ -12,7 +12,7 @@ tags:
 - Speech Recognition
 author: Tim Burcham
 twitter_handle: tim_burcham
-excerpt: How your money and the markets could look on a smartwatch or wearable device.
+excerpt: How will your money and the markets look on a smartwatch or wearable device?
 date: 2015-02-07
 permalink: /articles/wearables
 published: true
