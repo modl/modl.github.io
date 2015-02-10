@@ -4,7 +4,7 @@ title: Wearables
 categories: 
 - fintech
 tags: 
-- Smart Text
+- SmartText&reg;
 - Wearables
 - Android Wear
 - Apple Watch
@@ -30,7 +30,7 @@ Given these assumptions, our mobile development team prototyped an Android Wear 
 
 <iframe src="//player.vimeo.com/video/114930769?color=0071a3" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-We quickly discovered that the round display of the Moto 360 made viewing security details difficult -- and found that our Smart Text capability, summarizing those details in a quick sentence, was much more appropriate for the screen size, and interaction model.  In addition, with the only input device being voice, we were able to make use of our [speech recognition](/articles/speech-recognition-and-nlp) experiments, and our XREF systems, to identify the correct security for display.
+We quickly discovered that the round display of the Moto 360 made viewing security details difficult -- and found that our SmartText&reg; capability, summarizing those details in a quick sentence, was much more appropriate for the screen size, and interaction model.  In addition, with the only input device being voice, we were able to make use of our [speech recognition](/articles/speech-recognition-and-nlp) experiments, and our XREF systems, to identify the correct security for display.
 
 Granted, the above video is 'active use', but our next step is to wire the short notification to our alerting engines for quotes, news and research, and our MIND capability for determining relevancy.  In this way, we can provide only important notifications on securities in your portfolio or watchlist, using sound or Apple's Taptic feedback system to discretely notify an investor of a new trading opportunity, or to alert a Financial Advisor to an important client or book event.
 
