@@ -31,17 +31,15 @@ While we were researching Chrome support for TTS, however, we discovered that Go
 
 And that is where things got interesting.
 
-If we connected Speech Recognition to our symbol cross-reference (XRef) and SmartText&reg; engine, and hooked that up to Text-to-Speech, we would have a small system that could take simple questions about stocks, and respond with accurate, human-friendly answers.  However, there was one last challenge: the hard part of Speech Recognition is less about recognizing the voice and converting to text (though it's technically difficult, it's abstracted as a simple API call courtesy of Google now); the hard part is taking that text, and finding meaning in it, so that you know what someone's talking about.  That space is referred to as Natural Language Processing, or NLP, and while we had done some work in NLP in the past, we weren't looking forward to writing the code to manage NLP tokens and look for keywords.
+If we connected Speech Recognition to our symbol cross-reference (XRef) and SmartText&reg; engine, and hooked that up to Text-to-Speech, we would have a small system that could take simple questions about stocks, and respond with accurate, human-friendly answers.  However, there was one last challenge: the hard part of Speech Recognition is less about recognizing the voice and converting to text (though it's technically difficult, it's abstracted as a simple API call courtesy of Google now); the hard part is taking that text, and finding meaning in it, so that you know what someone's talking about.  That space is referred to as [Natural Language Processing](http://en.wikipedia.org/wiki/Natural_language_processing), or NLP, and while we had done some work in NLP in the past, we weren't looking forward to writing the code to manage NLP tokens and look for keywords.
 
 Which is when we stumbled on [Wit.ai](http://wit.ai), which provides NLP-as-a-service.  We could train Wit.ai to understand our intents, like 'Tell me about', or 'Search for', and it would return JSON-formatted intent and subject &mdash; and we suddenly knew what investors were asking questions about.  Wit.ai's superb APIs made NLP a small evening project to connect the last pieces to our 'Siri for Finance', and we powered it up:
 
-```
-Video
-```
+<iframe src="//player.vimeo.com/video/119302170?color=0071a3&portrait=0" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Obviously, investors don't have plans to speak to their workstations, tablets or phones to get financial information (even developing and testing this got fun and confused looks in the office). However, we were able to identify some alternate applications for this technology:
 
-- Car/Commute: Using only the TTS capability, a ppersonalized market update, or preparation for an advisor's client meetings could be delivered to your phone, to be consumed in a hands-occupied environment like the car or train.
+- Car/Commute: Using only the TTS capability, a personalized market update, or preparation for an advisor's client meetings could be delivered to your phone, to be consumed in a hands-occupied environment like the car or train.
 - Personalized Podcast: Apps like [Umano](https://umano.me/) allow a user to construct a personalized, spoken podcast.  Interspersed in that podcast could be a personalized portfolio update, taking the traditional radio update of the big three indexes, and making it relevant to the individual investor.
 - In a financial advisor/client context, either in person, or remotely, the full solution could be used as an assistant, pulling up relevant financial information on a screen:
     - "Let's take a look at Facebook's ad revenues", and a chart of FB's revenues displays
