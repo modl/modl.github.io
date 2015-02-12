@@ -208,6 +208,10 @@ ul.list-group li {
 	margin:15px;
 }
 
+.post iframe {
+	margin-left:20px;
+}
+
 .black-module code {
 	font-size: 15px;
 	color: #45C4FF;
@@ -462,6 +466,7 @@ footer .copy {
 	filter:alpha(opacity=80);
 	font-size: 12px;
 	line-height: normal;
+	padding-top: 12px;
 }
 
 .btn-default {
@@ -500,6 +505,9 @@ footer .copy {
 #projects {
 	padding-top: 60px;
 }
+
+/* Responsive video wrapper */
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 95%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 95%; height: 100%;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) and (max-width:992px){
