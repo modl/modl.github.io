@@ -12,7 +12,7 @@ tags:
 - Speech Recognition
 author: Tim Burcham
 twitter_handle: tim_burcham
-excerpt: How will your money and the markets look on a smartwatch or wearable device?
+excerpt: How will your money and the markets look on a smartwatch or wearable device? *Now updated with Apple Watch!
 date: 2015-02-07
 permalink: /articles/wearables
 published: true
@@ -26,13 +26,15 @@ At first look, wearables appear to simply be a miniaturization of our phones &md
 * Interactions with a smart watch will be fast, on the order of seconds, rather than minutes
 * Given the size and speed of the interaction, the user experience must be highly relevant
 
-Given these assumptions, our mobile development team prototyped an Android Wear app that uses speech recognition to look up a security:
+Given these assumptions, our mobile development team prototyped both an Apple Watch and Android Wear app to look up a security; the latter uses speech recognition to do so.
+
+<iframe src="//player.vimeo.com/video/121371436?color=0071a3" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <iframe src="//player.vimeo.com/video/114930769?color=0071a3" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 We quickly discovered that the round display of the Moto 360 made viewing security details difficult -- and found that our SmartText&reg; capability, summarizing those details in a quick sentence, was much more appropriate for the screen size, and interaction model.  In addition, with the only input device being voice, we were able to make use of our [speech recognition](/articles/speech-recognition-and-nlp) experiments, and our XREF systems, to identify the correct security for display.
 
-Granted, the above video is 'active use', but our next step is to wire the short notification to our alerting engines for quotes, news and research, and our MIND capability for determining relevancy.  In this way, we can provide only important notifications on securities in your portfolio or watchlist, using sound or Apple's Taptic feedback system to discretely notify an investor of a new trading opportunity, or to alert a Financial Advisor to an important client or book event.
+Granted, the above videos are 'active use', and our next step is to wire the short notification to our alerting engines for quotes, news and research, and our MIND capability for determining relevancy.  In this way, we can provide only important notifications on securities in your portfolio or watchlist, using sound or Apple's Taptic feedback system to discretely notify an investor of a new trading opportunity, or to alert a Financial Advisor to an important client or book event.
 
 It's definitely early days for wearables, and smart watches in particular, but we feel that the smaller size makes a compelling case for micro-interactions that can help an investor in the course of their day, with a minimum of effort.
 
