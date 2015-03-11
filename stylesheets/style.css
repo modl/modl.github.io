@@ -513,9 +513,12 @@ footer .copy {
 .reads-focus {
 
 }
-.reads-focus p {
+.reads-focus small.caption {
 	margin:0px 20px;
-	font-size:0.9em;
+	display:block;
+}
+.caption {
+	font-size:0.8em;
 }
 
 /* Small devices (tablets, 768px and up) */

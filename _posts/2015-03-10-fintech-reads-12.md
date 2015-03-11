@@ -27,18 +27,18 @@ published: true
 
 
 
-Our Mobile Development team has been performing some great experiments with [smartwatches](http://modl.markit.com/articles/wearables/).  They're ready to roll once the Apple Watch ships in April, and all set for Android Wear devices now. Check out some demos of their awesome work below!
+Our Mobile Development team has been performing some great experiments with [smartwatches](/articles/wearables/).  They're ready to roll once the Apple Watch ships in April, and all set for Android Wear devices now. Check out some demos of their awesome work below!
+
 <div class="reads-focus clearfix">
 	<div class="pull-left">
 		<iframe src="//player.vimeo.com/video/121371436?color=0071a3&byline=0" width="350" height="197" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-		<p>Credits: Brian Fritz (brian.fritz@markit.com)</p>
+		<small class="caption">Credits: Brian Fritz (brian.fritz@markit.com)</small>
 	</div>
 	<div class="pull-left">
 		<iframe src="//player.vimeo.com/video/114930769?color=0071a3&byline=0" width="350" height="197" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-		<p>Credits: Jeremy MacNicol (jeremy.macnicol@markit.com)</p>
+		<small class="caption">Credits: Jeremy MacNicol (jeremy.macnicol@markit.com)</small>
 	</div>
 </div>
-
 -----
 
 Prefer to read this as an e-book? [Grab the Readlist](http://readlists.com/68570bf4) and get an e-book on Kindle, iBooks or email in one click!
