@@ -29,8 +29,10 @@ At first look, wearables appear to simply be a miniaturization of our phones &md
 Given these assumptions, our mobile development team prototyped both an Apple Watch and Android Wear app to look up a security; the latter uses speech recognition to do so.
 
 <iframe src="//player.vimeo.com/video/121371436?color=0071a3" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<small class="caption">Credits: <a href="mailto:brian.fritz@markit.com">Brian Fritz</a></small>
 
 <iframe src="//player.vimeo.com/video/114930769?color=0071a3" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<small class="caption">Credits: <a href="mailto:jeremy.macnicol@markit.com">Jeremy MacNicol</a>, <a href="mailto:michael.cameron@markit.com">Michael Cameron</a></small>
 
 We quickly discovered that the round display of the Moto 360 made viewing security details difficult -- and found that our SmartText&reg; capability, summarizing those details in a quick sentence, was much more appropriate for the screen size, and interaction model.  In addition, with the only input device being voice, we were able to make use of our [speech recognition](/articles/speech-recognition-and-nlp) experiments, and our XREF systems, to identify the correct security for display.
 
