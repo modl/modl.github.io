@@ -25,9 +25,9 @@ permalink: /articles/fintech-reads-issue-12
 published: true
 ---
 
+### Issue Highlight
 
-
-Our Mobile Development team has been performing some great experiments with [smartwatches](/articles/wearables/).  They're ready to roll once the Apple Watch ships in April, and all set for Android Wear devices now. Check out some demos of their awesome work below!
+Our Mobile Engineering team has been performing some great experiments with [smartwatches](/articles/wearables/).  They're ready to roll once the Apple Watch ships in April, and all set for Android Wear devices now. Check out some demos of their awesome work below!
 
 <div class="reads-focus clearfix">
 	<div class="pull-left">
@@ -41,9 +41,9 @@ Our Mobile Development team has been performing some great experiments with [sma
 </div>
 -----
 
-Prefer to read this as an e-book? [Grab the Readlist](http://readlists.com/68570bf4) and get an e-book on Kindle, iBooks or email in one click!
+### Issue #12
 
------
+<a href="http://readlists.com/68570bf4"><img src="/images/readlist-icon.png"> Grab the Readlist</a>
 
 [Apple and IBM: The most enterprising apps ever.](https://www.apple.com/business/mobile-enterprise-apps/) It's time to transform how business gets done with apps that tap into the full potential of big data and analytics. IBM MobileFirst for iOS apps, made exclusively for iPhone and iPad, are now...
 
