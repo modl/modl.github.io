@@ -32,11 +32,11 @@ Our Mobile Development team has been performing some great experiments with [sma
 <div class="reads-focus clearfix">
 	<div class="pull-left">
 		<iframe src="//player.vimeo.com/video/121371436?color=0071a3&byline=0" width="350" height="197" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-		<small class="caption">Credits: Brian Fritz (brian.fritz@markit.com)</small>
+		<small class="caption">Credits: <a href="mailto:brian.fritz@markit.com">Brian Fritz</a></small>
 	</div>
 	<div class="pull-left">
 		<iframe src="//player.vimeo.com/video/114930769?color=0071a3&byline=0" width="350" height="197" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-		<small class="caption">Credits: Jeremy MacNicol (jeremy.macnicol@markit.com)</small>
+		<small class="caption">Credits: <a href="mailto:jeremy.macnicol@markit.com">Jeremy MacNicol</a>, <a href="mailto:michael.cameron@markit.com">Michael Cameron</a></small>
 	</div>
 </div>
 -----
