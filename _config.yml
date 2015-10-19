@@ -1,5 +1,5 @@
 name: MOD/L | Markit On Demand Labs
 markdown: redcarpet
-pygments: true
+highlighter: true
 timezone: America/Denver
 permalink: pretty
