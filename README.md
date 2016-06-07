@@ -1,4 +1,4 @@
-# MOD/L
+# Markit Digital Labs
 
-Markit On Demand Labs (MOD/L) website hosted by GitHub Pages.
+Markit Digital Labs website hosted by GitHub Pages.
 
