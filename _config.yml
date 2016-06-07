@@ -1,5 +1,5 @@
 name: Markit Digital Labs | Markit Digital Labs
 markdown: redcarpet
-highlighter: true
+highlighter: rouge
 timezone: America/Denver
 permalink: pretty
