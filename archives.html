@@ -1,32 +1,5 @@
 ---
-layout: default
+layout: redirected
+sitemap: false
+redirect_to:  https://ihsmarkit.com/products/digital.html
 ---
-<div class="row">
-  <div class="col-md-9" id="projects">
-
-    <h4>Article Archives</h4><div class="clearfix"></div>
-
-    <ul class="posts list-group">
-      {% for post in site.posts %}
-        <li class="list-group-item">
-          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          <span class="meta">{{ post.date | date_to_string }}</span>
-          <p>{{ post.excerpt | markdownify }}</p>
-       </li>
-      {% endfor %}
-    </ul>
-    <p><a href="{{site.url}}/rss.xml" class="btn btn-default"><i class="icon-rss"></i> RSS</a> <a href="#" class="btn btn-default"><i class="icon-chevron-sign-up"></i> Top</a></p>
-  </div>
-
- <!--  <div class="col-md-3 right-rail" id="articles">
-
-    <h4>Articles</h4><div class="clearfix"></div>
-
-    
-
-   <a href="{{site.url}}/rss.xml" class="btn btn-default"><i class="icon-rss"></i> RSS</a> <a href="#" class="btn btn-default"><i class="icon-chevron-sign-up"></i> Top</a>
-
-
-  </div> -->
-</div><!--/row-->
-<script type="text/javascript">_waq.push(['_trackPageView', {category:'Post Archives'}]);</script>
